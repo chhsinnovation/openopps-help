@@ -5,7 +5,15 @@
     {% include header.html %}
     {% include analytics.html %}
     <div class="usajobs-openopps-help-center">
-      {{ content }}
+      <section class="usajobs-shell usajobs-shell--large" data-object="help-article">
+        <section class="usajobs-canvas">
+          <div class="usajobs-openopps-help-center-article usajobs-content-gutter">
+            <main class="usajobs-content-well" id="main-content">
+              {{ content }}
+            </main>
+          </div>
+        </section>
+      </section>
     </div>
     {% include components/footer.html %}
   </body>
