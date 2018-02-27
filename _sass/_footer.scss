@@ -200,7 +200,7 @@ li.usa-footer-primary-content {
 
 
 // USAJOBS footer
-.usajobs-footer--v2 {
+.usajobs-footer--openopps {
   a,
   a:visited {
     display: block;
@@ -295,13 +295,6 @@ li.usa-footer-primary-content {
   }
 
   &__logo {
-    amp-img {
-      max-width: rem(150px);
-
-      @include grid-media($ML) {
-        max-width: rem(188px);
-      }
-    }
   }
 
   &__note {
@@ -546,15 +539,6 @@ li.usa-footer-primary-content {
     }
   }
 
-  &__note {
-    color: $color-white;
-    font-size: $small-font-size;
-
-    a {
-      display: inline;
-    }
-  }
-
   // Correcting for oddball borders
   ul:last-child {
     border-bottom: 0;
@@ -598,4 +582,104 @@ li.usa-footer-primary-content {
     }
   }
 
+  &__note {
+    color: $color-white;
+    font-size: $small-font-size;
+    margin-bottom: $size-default;
+
+    @include grid-media($ML) {
+      margin-top: $size-M;
+    }
+
+    a {
+      display: inline;
+    }
+  }
+
+  .usa-footer-big-secondary-section {
+    @include grid-media($M) {
+      // Trying to stay consistent with core even though it's an odd size
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+  }
+
+  &__container {
+    padding: 0 $size-default;
+
+    @include grid-media($M) {
+      padding-left: $size-M;
+      padding-right: $size-M;
+    }
+
+    @include grid-media($L) {
+      @include grid-container();
+    }
+  }
+
+  &__col {
+    @include grid-media($L) {
+      @include grid-column(8);
+      margin-left: 0;
+    }
+  }
+
+  &__col.usajobs-footer--openopps__contact {
+    @include grid-media($L) {
+      @include grid-column(4);
+    }
+  }
+
+  &__contact-email {
+    display: block;
+    padding: $size-base 0;
+
+    @include grid-media($L) {
+      @include h3();
+      margin: 0;
+      text-align: right;
+    }
+  }
+
+  ul.usajobs-footer--openopps__subsection-horizontal {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    @include grid-media($ML) {
+      margin-bottom: $size-default; // Creates a space of 3rem between lines
+    }
+  }
+
+  ul.usajobs-footer--openopps__subsection-large {
+    @include clearfix();
+    clear: both;
+    padding-top: $size-default;
+
+    @include grid-media($L) {
+      margin: 0;
+      padding-top: 0;
+    }
+
+    li {
+      color: $color-white;
+      font-size: $small-font-size;
+
+      @include grid-media($ML) {
+        margin-right: $size-M;
+      }
+    }
+
+    li a {
+      font-size: $small-font-size;
+      line-height: $base-line-height;
+    }
+  }
+}
+
+svg.usajobs-footer--openopps__logo {
+  width: auto;
+  height: auto;
+  max-width: 32.0rem;
 }

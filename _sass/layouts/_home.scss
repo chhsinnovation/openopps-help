@@ -1,8 +1,7 @@
 
-.usajobs-recruitment-home {
+.usajobs-openopps-help-center--home {
   padding: $size-L $size-default;
-  background-color: $color-gray-cool-light;
-  min-height: 95vh;
+  min-height: 68vh;
 
   &__container {
     @include grid-container();

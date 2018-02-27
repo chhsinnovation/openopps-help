@@ -28,7 +28,7 @@ $duration-slow:   0.8s;
   font-weight: $font-bold;
   line-height: $heading-line-height;
   margin-bottom: $size-base;
-  margin-top: 0;
+  margin-top: $size-default;
 }
 
 @mixin h1 {

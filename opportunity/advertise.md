@@ -1,5 +1,5 @@
 ---
-permalink: opportunity/advertise-opportunity/
+permalink: opportunity/advertise/
 layout: article
 category: opportunity
 title: How can I advertise my opportunity?

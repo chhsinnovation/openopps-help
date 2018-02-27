@@ -212,35 +212,148 @@ $nav_item_height: 17px + 26.5px;
   }
 }
 
-.usajobs-nav--vATP {
-  &__body {
-    max-width: inherit;
-  }
 
-  &__banner-inner,
-  &__header,
-  &__search-body {
-    max-width: $site-max-width-L;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
+.usajobs-nav--openopps {
   &__brand {
-    @include grid-media($XXXXL) {
-      padding-left: 0;
+    padding: $size-default 0 $size-default $size-default;
+
+    @include grid-media($SM) {
+      padding-bottom: $size-S;
+    }
+
+    @include grid-media($ML) {
+      padding-left: $size-M;
+    }
+
+    @include grid-media($L) {
+      padding-top: 1.2rem;
+    }
+
+    svg {
+      width: 17.0rem;
+      height: auto;
+
+      @include grid-media($ML) {
+        width: 22.8rem;
+      }
+
+      @include grid-media($L) {
+        width: 29.8rem;
+      }
     }
   }
 
-  &__feedback {
-    color: $color-gray-dark;
+  &__help {
+    display: inline-block;
+  }
 
-    &:active,
-    &:hover,
-    &:visited {
-      color: $color-gray-dark;
+  &__brand-container {
+    margin-right: 0;
+  }
+
+  &__section-link {
+    font-size: $small-font-size;
+    padding: 1.3rem $size-S $size-S;
+
+    @include grid-media($SM) {
+      font-size: $base-font-size;
+      padding-top: 1.7rem;
     }
+
+    @include grid-media($M) {
+      display: inline-block;
+      padding-top: 2.2rem;
+      padding-bottom: 2.2rem;
+    }
+
+    @include grid-media($ML) {
+      padding-left: $size-M;
+      padding-right: $size-M;
+    }
+
+    &.menu-toggle {
+      padding-top: 1.3rem;
+
+      @include grid-media($SM) {
+        padding-top: 1.7rem;
+      }
+
+      @include grid-media($M) {
+        padding-top: 2.2rem;
+      }
+    }
+
+    &.is-active {
+      box-shadow: none;
+      background-color: inherit;
+    }
+
+    svg {
+      height: 1.7rem;
+
+      @include grid-media($M) {
+        display: inline-block;
+        padding-bottom: 0;
+      }
+    }
+
+    &__first_name {
+      @include grid-media($M) {
+        display: inline-block;
+      }
+    }
+  }
+
+
+  &__section-link.is-active &__section-active,
+  &__menu-container[data-state="is-open"] &__first-name {
+    border-bottom: 0.7rem solid $color-primary;
+    padding-bottom: 0.2rem;
+
+    @include grid-media($M) {
+      padding-bottom: 1.4rem;
+    }
+  }
+
+  &__menu-container[data-state="is-open"] &__section-link.menu-toggle {
+    padding-bottom: 0;
+    background-color: $color-primary-darkest;
+    box-shadow: none;
+  }
+
+  &__people {
+    display: none;
+
+    @include grid-media($SM) {
+      display: inline-block;
+    }
+
+
+    svg {
+      @include grid-media($M) {
+        // These icons are awfully fiddly
+        transform-origin: inherit;
+        padding-right: 1.3rem;
+      }
+    }
+  }
+
+  &__icon-center {
+    @include grid-media($SM) {
+      // @include iconCenter(1.5em);
+      height: 1em;
+
+      svg {
+        height: $base-font-size;
+      }
+    }
+  }
+
+  &__title {
+    display: inherit;
   }
 }
+
 
 // Secondary navigation ----------- //
 .usa-nav-secondary {

@@ -1,5 +1,5 @@
 
-.usajobs-help-center-article {
+.usajobs-openopps-help-center-article {
   @include clearfix();
 
   // Override of the US Standards on lists. It really does odd things inside of articles.
@@ -57,7 +57,7 @@
     margin-top: $size-L;
   }
 
-  .usajobs-help-center-article__related-list {
+  .usajobs-openopps-help-center-article__related-list {
     @include unstyledList();
     margin-bottom: $size-L;
 
