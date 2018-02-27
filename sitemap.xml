@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/Help/opportunity/advertise-opportunity/</loc>
+<loc>/Help/opportunity/advertise/</loc>
 </url>
 <url>
 <loc>/Help/opportunity/create/</loc>
@@ -10,13 +10,16 @@
 <loc>/Help/</loc>
 </url>
 <url>
+<loc>/Help/privacy/</loc>
+</url>
+<url>
+<loc>/Help/what-is-new/</loc>
+</url>
+<url>
 <loc>/Help/getting-started/</loc>
 </url>
 <url>
 <loc>/Help/terms-and-conditions/</loc>
-</url>
-<url>
-<loc>/Help/what-is-new/</loc>
 </url>
 <url>
 <loc>/Help/getting-started/top-10-tips/</loc>
