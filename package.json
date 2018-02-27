@@ -1,0 +1,72 @@
+{
+  "name": "OpenOpps_Help",
+  "version": "6.4.1",
+  "description": "Open Opportunities Help",
+  "keywords": [
+    "USAJOBS",
+    "Open Opportunities",
+    "gov",
+    "help",
+    "support"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/USAJOBS/openopps-help"
+  },
+  "author": "Lab @ OPM",
+  "contributors": [
+    "Min Chung <min.chung@opm.gov>",
+    "Matthew Dingee <matthew.dingee@opm.gov>",
+    "Debbie LeNard <deborah.lenard@opm.gov>"
+  ],
+  "license": "SEE LICENSE in LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/USAJOBS/openopps-help/issues"
+  },
+  "homepage": "http://usajobs.github.io/openopps-help/",
+  "devDependencies": {
+    "babelify": "^8.0.0",
+    "broken-link-checker": "^0.7.7",
+    "clean-css": "^4.1.9",
+    "grunt": "^1.0.2",
+    "grunt-a11y": "^0.1.5",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-browserify": "^5.0.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-concurrent": "^2.2.1",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.2.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-html": "^8.6.1",
+    "grunt-notify": "^0.4.5",
+    "grunt-sass": "^2.1.0",
+    "grunt-scss-lint": "^0.5.0",
+    "grunt-shell": "^2.1.0",
+    "grunt-spritesmith": "^6.6.0",
+    "jshint-stylish": "^2.2.0",
+    "load-grunt-tasks": "^3.5.0",
+    "markdown-spellcheck": "^1.3.1",
+    "node-sass": "^4.7.2",
+    "opener": "^1.4.2",
+    "sass-lint": "^1.12.1",
+    "scsslint": "0.0.3",
+    "time-grunt": "^1.4.0"
+  },
+  "dependencies": {
+    "usajobs-design-system": "^1.5.5"
+  },
+  "scripts": {
+    "all": "npm run build && npm run deploy",
+    "build": "grunt build",
+    "deploy:cloud": "grunt build; cf push",
+    "css": "grunt css",
+    "deploy": "git subtree push --prefix _dist origin gh-pages",
+    "js": "grunt js",
+    "open:repo": "opener http://github.com/USAJOBS/openopps-help",
+    "start": "grunt serve",
+    "test": "grunt test",
+    "postinstall": "grunt css && grunt js"
+  }
+}

@@ -1,0 +1,601 @@
+// Footer
+// USWDS footer
+.usa-footer {
+  .usa-unstyled-list {
+    display: block;
+  }
+
+  .usa-footer-primary-link {
+    color: $color-base;
+    display: block;
+    font-weight: $font-bold;
+    margin-top: 0;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    text-decoration: none;
+
+    @include grid-media($M) {
+      border-top: none;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  a {
+    font-weight: normal;
+  }
+}
+
+.usa-footer-return-to-top {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.usa-footer-primary-section {
+  background-color: $color-gray-lightest;
+
+  .usa-footer-primary-content {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+
+    @include grid-media($M) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    li {
+      margin-left: 1rem;
+
+      @include grid-media($M) {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .usa-grid-full {
+    @include grid-media($M) {
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+    }
+  }
+}
+
+
+// scss-lint:disable QualifyingElement
+ul.usa-footer-primary-content,
+li.usa-footer-primary-content,
+li.usa-footer-primary-content {
+  border-top: 1px solid $color-base;
+
+  @include grid-media($M) {
+    border: none;
+  }
+
+  &:last-child {
+    border-bottom: 1px solid $color-base;
+
+    @include grid-media($M) {
+      border-bottom: none;
+    }
+  }
+}
+// scss-lint:enable QualifyingElement
+
+.usa-footer-secondary_section {
+  background-color: $color-gray-lighter;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+
+  a {
+    color: $color-base;
+  }
+}
+
+.usa-footer-big-secondary-section {
+  @include grid-media($M) {
+    padding-top: 5rem;
+  }
+}
+
+.usa-footer-contact-links {
+  @include grid-media($M) {
+    text-align: right;
+  }
+}
+
+.usa-social-links {
+  a {
+    text-decoration: none;
+  }
+}
+
+.usa-footer-big {
+  .usa-footer-primary-section {
+    @include grid-media($M) {
+      padding-bottom: 4rem;
+      padding-top: 3rem;
+    }
+  }
+
+  ul {
+    padding-bottom: 2.5rem;
+
+    @include grid-media($M) {
+      padding-bottom: 0;
+    }
+
+    &:last-child {
+      border-bottom: 1px solid $color-base;
+
+      @include grid-media($M) {
+        border-bottom: none;
+      }
+    }
+
+    li {
+      line-height: 2em;
+    }
+
+    .usa-footer-primary-link {
+      margin-bottom: .8rem;
+      padding-bottom: 0;
+      padding-left: 0;
+
+      // scss-lint:disable SelectorDepth
+      > * {
+        @include margin(0 null);
+      }
+    }
+
+  }
+}
+
+.usa-footer-topic {
+  margin: 0;
+  padding: 2rem 0;
+}
+
+.usa-footer-logo-img {
+  max-width: 14rem;
+}
+
+.usa-footer-logo-heading {
+  margin-top: 2rem;
+}
+
+.usa-footer-contact-heading {
+  margin-top: 0;
+
+  @include grid-media($M) {
+    margin-top: 1rem;
+  }
+}
+
+.usa-social_link {
+  $background-height: 3rem; // Height of icon within hit area.
+  $hit-area: 4.4rem; // Link hit target is 44 x 44 pixels following Apple iOS
+                     // Human Interface Guidelines.
+  @include margin(2.5rem 1rem 1.5rem 0);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto $background-height;
+  display: inline-block;
+  height: $hit-area;
+  left: -1.6rem; // relative left positioning
+  position: relative;
+  text-align: center;
+  width: $hit-area;
+
+  @include grid-media($M) {
+    @include margin(0 0 0 1rem);
+    left: 1.2rem;
+  }
+
+  span {
+    @include sr-only();
+  }
+}
+
+
+// USAJOBS footer
+.usajobs-footer--v2 {
+  a,
+  a:visited {
+    display: block;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  &__menu-item:last-child {
+    padding-bottom: $size-M;
+  }
+
+  &__menu-item {
+    display: list-item;
+  }
+
+  .usa-footer-return-to-top a {
+    color: $color-primary;
+  }
+
+  &__joa-playbook,
+  &__faqs {
+    position: relative;
+    @include unstyledList();
+  }
+
+  // Fix headers inside of unordered lists
+  .usa-footer-primary-section .usa-footer-primary-content .usa-footer-primary-link {
+    @include h4();
+    margin: $size-default 0 $size-base;
+    padding-left: $size-S;
+    background: none;
+
+    @include grid-media($M) {
+      @include h3();
+      padding-left: 0;
+    }
+  }
+
+  .usa-footer-primary-content {
+    padding-bottom: 0;
+  }
+
+  .usa-footer-primary-content:last-child.usajobs-footer--v2__account {
+    @include grid-media($L) {
+      // grrr, the Neat grid automatically sets the last child to margin-right: 0
+      // given the way we have split the grid into 2 then 4 columns the work around
+      // is to hard code the margin-right
+      margin-right: 2.3576515979%;
+    }
+  }
+
+  &__subsection {
+    font-size: $small-font-size;
+    margin-bottom: 0;
+  }
+
+  &__subsection-title {
+    a,
+    a:visited {
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .usa-footer-secondary_section {
+    background-color: $color-primary-darkest;
+    border-top: 1px solid $color-base;
+
+    a,
+    a:visited {
+      color: $color-white;
+    }
+
+    .usajobs-social-link,
+    .usajobs-social-link:visited {
+      display: inline-block;
+      padding: 0 $size-base $size-S;
+      color: $color-white;
+      text-decoration: none;
+      font-size: $h3-font-size;
+    }
+  }
+
+  .usa-footer-logo .logo {
+    display: inline-block;
+  }
+
+  &__logo {
+    amp-img {
+      max-width: rem(150px);
+
+      @include grid-media($ML) {
+        max-width: rem(188px);
+      }
+    }
+  }
+
+  &__note {
+    color: $color-white;
+    font-size: $small-font-size;
+
+    a {
+      display: inline;
+    }
+  }
+
+  // Correcting for oddball borders
+  ul:last-child {
+    border-bottom: 0;
+  }
+
+  ul.usajobs-footer--v2__subsection-horizontal {
+    margin-top: $size-S;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+
+    @include grid-media($SM) {
+      margin-bottom: $size-default;
+    }
+
+    @include grid-media($ML) {
+      margin-bottom: 0;
+    }
+
+    li {
+      line-height: 1;
+
+      @include grid-media($SM) {
+        @include grid-column(1);
+        display: inline-block;
+      }
+
+      @include grid-media($ML) {
+        float: none;
+        margin: 0;
+        width: auto;
+      }
+    }
+
+    li:nth-child(2n) {
+      @include grid-media($SM) {
+        // @include omega();
+      }
+    }
+
+    li a {
+      display: block;
+      padding: $size-S $size-S $size-S 0;
+      font-size: $xsmall-font-size;
+      line-height: 1.5;
+
+      @include grid-media($SM) {
+        padding-left: 0;
+      }
+    }
+  }
+}
+
+.usajobs-footer--openopps {
+  a,
+  a:visited {
+    color: $color-primary;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  &__menu-item:last-child {
+    padding-bottom: $size-M;
+  }
+
+  .usa-footer-return-to-top a {
+    color: $color-primary;
+  }
+
+
+  .usa-footer-primary-section .usa-footer-primary-content {
+    padding-left: $size-default;
+    padding-right: $size-default;
+
+    @include grid-media($M) {
+      padding: 0;
+    }
+  }
+
+  .usa-footer-primary-section .usa-footer-primary-content &__menu-item {
+    margin-left: 2.5rem;
+
+    @include grid-media($M) {
+      margin-left: 0;
+    }
+  }
+
+  .usa-footer-primary-section .usa-footer-primary-content .usa-footer-primary-link a,
+  .usa-footer-primary-section .usa-footer-primary-content .usa-footer-primary-link a:visited {
+    color: $color-base;
+    font-weight: bold;
+  }
+
+  .usa-footer-primary-content {
+    @include grid-media($M) {
+    }
+
+    @include grid-media($L) {
+    }
+  }
+
+  .usa-footer-primary-content:nth-child(2n) {
+    @include grid-media($M) {
+    }
+
+    @include grid-media($L) {
+      // grrr, the Neat grid automatically sets the last child to margin-right: 0
+      // given the way we have split the grid into 2 then 4 columns the work around
+      // is to hard code the margin-right
+      margin-right: 2.3576515979%;
+    }
+  }
+
+  .usa-footer-primary-content:nth-child(4n) {
+    @include grid-media($L) {
+    }
+  }
+
+  &__content-container {
+    clear: both;
+  }
+
+  // Fix headers inside of unordered lists
+  .usa-footer-primary-section .usa-footer-primary-content .usa-footer-primary-link {
+    @include h4();
+    margin: 0;
+    padding-bottom: $size-M;
+    background: none;
+
+    @include grid-media($M) {
+      @include h3();
+      padding: 0;
+    }
+
+    &:hover {
+      cursor: pointer;
+
+      @include grid-media($M) {
+        cursor: inherit;
+      }
+    }
+
+    .usajobs-icon {
+      width: rem(9px);
+      height: rem(28px);
+      margin-right: $size-default;
+      color: $color-base;
+      vertical-align: middle;
+      @include transition(all $duration-fast ease);
+      @include transform-style(preserve-3d);
+
+      @include grid-media($M) {
+        display: none;
+      }
+    }
+  }
+
+  .usa-footer-primary-section .usa-footer-primary-content .usa-footer-primary-link {
+    padding: $size-M 0 $size-S;
+
+    .usajobs-icon {
+      @include transform(rotate(90deg));
+    }
+  }
+
+  .usa-footer-primary-section .usa-footer-primary-content.hidden .usa-footer-primary-link {
+    padding: $size-M 0;
+
+    .usajobs-icon {
+      @include transform(none);
+    }
+  }
+
+  .usajobs-social-link .usajobs-icon {
+    color: $color-white;
+  }
+
+  .usa-footer-primary-content {
+    padding-bottom: 0;
+  }
+
+  &__subsection {
+    font-size: $small-font-size;
+    margin-bottom: 0;
+  }
+
+  &__subsection-title {
+    a,
+    a:visited {
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .usa-footer-secondary_section {
+    background-color: $color-primary-darkest;
+    border-top: 1px solid $color-base;
+
+    a,
+    a:visited {
+      color: $color-white;
+    }
+
+    .usajobs-social-link,
+    .usajobs-social-link:visited {
+      display: inline-block;
+      padding: 0 $size-base $size-S;
+      color: $color-white;
+      text-decoration: none;
+      font-size: $h3-font-size;
+    }
+  }
+
+  .usa-footer-logo .logo {
+    display: inline-block;
+    height: rem(36px);
+    width: rem(150px);
+    background-image: url('../img/logo/png/white-2x.png');
+    background-image: url('../img/logo/svg/white-2x.svg');
+    background-repeat: no-repeat;
+
+    @include grid-media($ML) {
+      height: rem(45px);
+      width: rem(188px);
+    }
+  }
+
+  &__note {
+    color: $color-white;
+    font-size: $small-font-size;
+
+    a {
+      display: inline;
+    }
+  }
+
+  // Correcting for oddball borders
+  ul:last-child {
+    border-bottom: 0;
+  }
+
+  ul.usajobs-footer--openopps__subsection-horizontal {
+    @include clearfix();
+    clear: both;
+    padding-bottom: 0;
+
+    li {
+      margin: $size-XS 0;
+      padding: 0;
+      line-height: 1;
+
+      @include grid-media($SM) {
+        display: inline-block;
+      }
+
+      @include grid-media($ML) {
+        float: none;
+        margin: 0;
+        width: auto;
+      }
+    }
+
+    li:nth-child(2n) {
+      @include grid-media($SM) {
+      }
+    }
+
+    li a {
+      display: block;
+      padding: $size-S $size-S $size-S 0;
+      font-size: $xsmall-font-size;
+      line-height: 1.5;
+
+      @include grid-media($SM) {
+        padding-left: 0;
+      }
+    }
+  }
+
+}

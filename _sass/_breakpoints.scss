@@ -1,0 +1,20 @@
+
+// Breakpoints
+$SM-screen:    30em;      //  480px at 16px base font - USDS standard
+$M-screen:     37.5em;    //  600px at 16px base font - USDS standard
+$ML-screen:    48em;      //  768px at 16px base font
+$L-screen:     62em;      //  992px at 16px base font
+$XL-screen:    75em;      // 1200px at 16px base font - USDS standard
+$XXL-screen:   85.375em;  // 1366px at 16px base font
+$XXXL-screen:  100em;     // 1600px at 16px base font
+$XXXXL-screen: 120em;     // 1920px at 16px base font
+
+// min-width
+$SM:    (media: "(min-width: 30em)", columns: 2, gutter: 1rem);
+$M:     (media: "(min-width: 37.5em)", columns: 6, gutter: 1.5rem);
+$ML:    (media: "(min-width: 48em)", columns: 6, gutter: 3rem);
+$L:     (media: $L-screen, columns: 12, gutter: 3rem);
+$XL:    (media: $XL-screen, columns: 12, gutter: 3rem);
+$XXL:   (media: $XXL-screen, columns: 12, gutter: 3rem);
+$XXXL:  (media: $XXXL-screen, columns: 16, gutter: 3rem);
+$XXXXL: (media: $XXXXL-screen, columns: 16, gutter: 3rem);

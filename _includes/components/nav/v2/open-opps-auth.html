@@ -1,0 +1,48 @@
+<header class="usajobs-site-header" role="banner" aria-label="header">
+  {% include components/nav/_gov-banner.html %}
+  <nav class="usajobs-nav usajobs-nav--openopps" role="navigation" aria-label="main navigation" data-object="nav">
+    <div class="usajobs-nav__body usajobs-nav--openopps">
+      <div class="usajobs-nav__header-container">
+        <div class="usajobs-nav__header usajobs-nav--openopps">
+          <div class="usajobs-nav__brand-container usajobs-nav--openopps__brand-container">
+            <a class="usajobs-nav__brand usajobs-nav--openopps__brand" href="/">
+              {% include logo/open-opps.svg %}
+            </a>
+          </div>
+          <div class="usajobs-nav__menu" id="usajobs-menu">
+            <ul>
+              <li class="usajobs-nav__menu-container usajobs-nav__account usajobs-nav--openopps__menu-container" data-state="is-closed">
+                <a class="usajobs-nav__section-link usajobs-nav--openopps__section-link menu-toggle" data-behavior="nav.menu.toggle" aria-haspopup="true" href="#account" title="Account">
+                  <div class="usajobs-nav--openopps__icon-center">
+                    <span class="fas fa-user fa-fw"></span>
+                  </div>
+                  <span class="usajobs-nav__account_name">CR</span>
+                  <span class="usajobs-nav__first_name usajobs-nav--openopps__first-name">Christopher</span>
+                </a>
+                <ul class="usajobs-nav__secondary-menu" aria-expanded="false" aria-label="submenu" role="menu">
+                  <li><a href="https://openopps.digitalgov.gov/profile/0000">Profile</a></li>
+                  <li><a href="https://openopps.digitalgov.gov/admin/">Administration</a></li>
+                  <li><a href="https://openopps.digitalgov.gov/auth/logout/">Sign Out</a></li>
+                </ul>
+              </li>
+              <li class="usajobs-nav__menu-container usajobs-nav--openopps__people">
+                <a class="usajobs-nav__section-link usajobs-nav--openopps__section-link is-active" href="https://openopps.digitalgov.gov/profiles" title="People">
+                  <span class="usajobs-nav--openopps__section-active">
+                    <span class="fas fa-users fa-fw" data-fa-transform="right-10"></span>People
+                  </span>
+                </a>
+              </li>
+              <li class="usajobs-nav__menu-container usajobs-nav__menu-search" data-state="is-closed">
+                <a class="usajobs-nav__section-link usajobs-nav--openopps__section-link" href="https://openopps.digitalgov.gov/tasks/" title="Search Opportunities">
+                  <span class="usajobs-nav--openopps__section-active">
+                    <span class="fas fa-search fa-fw" data-fa-transform="right-8"></span> Search
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>

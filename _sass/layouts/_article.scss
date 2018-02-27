@@ -1,0 +1,148 @@
+
+.usajobs-help-center-article {
+  @include clearfix();
+
+  // Override of the US Standards on lists. It really does odd things inside of articles.
+  ul,
+  ol {
+    margin-bottom: $size-S;
+  }
+
+  blockquote {
+    padding: 0 $size-default;
+    color: $color-gray;
+    border-left: 4px solid $color-gray-light;
+  }
+
+  &__container {
+    max-width: $article-max-width;
+  }
+
+  // Fix for lack of design system lists in prod
+  .usajobs-content-well {
+    @include grid-media($L) {
+      min-height: 50vh;
+    }
+
+    ul {
+      @include bulletList();
+    }
+
+    ul,
+    ol {
+      margin-left: .9em;
+      margin-bottom: $size-S;
+    }
+
+    a {
+      text-decoration: underline;
+    }
+
+    &.has-exposed-form {
+      margin-bottom: $size-default;
+
+      @include grid-media($L) {
+        min-height: inherit;
+      }
+    }
+  }
+
+  .usajobs-content-well.usajobs-content-well--exposed-form {
+    @include grid-media($L) {
+      min-height: inherit;
+    }
+  }
+
+  &__related {
+    margin-top: $size-L;
+  }
+
+  .usajobs-help-center-article__related-list {
+    @include unstyledList();
+    margin-bottom: $size-L;
+
+    > li {
+      margin-bottom: .75em;
+    }
+
+    > li > a {
+      text-decoration: none;
+    }
+  }
+
+  &__additional-container {
+    @include grid-column(12);
+    margin: $size-M 0;
+  }
+
+  &__additional-help {
+    padding: $size-default;
+    text-align: center;
+    background-color: $color-primary-alt-lightest;
+
+    p {
+      @include h4();
+      color: $color-primary-darkest;
+
+      a {
+        font-weight: normal;
+      }
+
+      a:visited {
+        color: $color-primary;
+      }
+    }
+  }
+
+  &__reveal-contact-us {
+    margin-top: $size-default;
+  }
+}
+
+.usajobs-help-center-article-contact {
+  @include clearfix();
+  margin-bottom: $size-XXL;
+
+  &__list {
+    @include unstyledList();
+  }
+
+  &__form-container {
+    max-width: $article-max-width;
+    padding: $size-default;
+
+    &[aria-hidden=true] {
+      display: none;
+    }
+
+    .usajobs-help-center__lead {
+      color: $color-black;
+    }
+  }
+
+  .usajobs-help-center-article-contact__button {
+    padding: $size-M $size-default;
+    background-color: $color-gray;
+    background-image: inherit;
+    color: $color-white;
+    font-size: $h3-font-size;
+    text-align: center;
+
+    &[aria-expanded=false] {
+      background-image: inherit;
+    }
+
+    &:hover {
+      background-color: $color-gray-dark;
+      color: $color-white;
+    }
+
+    .usa-button {
+      font-size: $base-font-size;
+
+      @include grid-media($SM) {
+        margin-left: $size-default;
+      }
+    }
+  }
+}

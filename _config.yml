@@ -1,0 +1,44 @@
+# Markdown config
+highlighter: rouge
+name: Open Opportunities Help
+description: Help with using Open Opportunities
+exclude:
+- Gemfile
+- Gemfile.lock
+- Gruntfile.js
+- package.json
+- README.md
+- LICENSE.md
+- CONTRIBUTING.md
+- ".sass-cache"
+- ".ruby-version"
+- npm-debug.log
+- node_modules
+keep_files: ['css', 'js']
+
+# Setting a unique port number
+port: 4001
+
+baseurl: '/Help'
+destination: ./_dist
+
+permalink: pretty
+
+author:
+  name: USAJOBS
+  url: https://openopps.usajobs.gov/Help/
+
+repository:
+  name: Open Opportunities Help
+  url: https://github.com/USAJOBS/openopps-help/
+
+produrl: 'https://openopps.usajobs.gov'
+
+google_analytics_ua: UA-33523145-1
+
+plugins: ['jekyll-sitemap']
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
