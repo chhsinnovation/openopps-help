@@ -2,7 +2,8 @@
 permalink: what-is-new/
 layout: article
 category: what-is-new
-title: What is new
+title: What's new with Open Opportunities
 ---
 
-Index page for what is new. Content will include release notes.
+## Changes made March 9, 2018
+
