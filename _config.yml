@@ -19,7 +19,7 @@ keep_files: ['css', 'js']
 # Setting a unique port number
 port: 4001
 
-baseurl: '/Help'
+baseurl: '/openopps-help'
 destination: ./_dist
 
 permalink: pretty

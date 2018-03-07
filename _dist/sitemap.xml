@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/Help/opportunity/advertise/</loc>
+<loc>/openopps-help/opportunity/advertise/</loc>
 </url>
 <url>
-<loc>/Help/opportunity/create/</loc>
+<loc>/openopps-help/opportunity/create/</loc>
 </url>
 <url>
-<loc>/Help/terms-and-conditions/</loc>
+<loc>/openopps-help/terms-and-conditions/</loc>
 </url>
 <url>
-<loc>/Help/</loc>
+<loc>/openopps-help/</loc>
 </url>
 <url>
-<loc>/Help/privacy/</loc>
+<loc>/openopps-help/privacy/</loc>
 </url>
 <url>
-<loc>/Help/what-is-new/</loc>
+<loc>/openopps-help/what-is-new/</loc>
 </url>
 <url>
-<loc>/Help/getting-started/</loc>
+<loc>/openopps-help/getting-started/</loc>
 </url>
 <url>
-<loc>/Help/getting-started/top-10-tips/</loc>
+<loc>/openopps-help/getting-started/top-10-tips/</loc>
 </url>
 </urlset>
