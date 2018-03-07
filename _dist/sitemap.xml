@@ -7,10 +7,10 @@
 <loc>/openopps-help/opportunity/create/</loc>
 </url>
 <url>
-<loc>/openopps-help/terms-and-conditions/</loc>
+<loc>/openopps-help/</loc>
 </url>
 <url>
-<loc>/openopps-help/</loc>
+<loc>/openopps-help/terms-and-conditions/</loc>
 </url>
 <url>
 <loc>/openopps-help/privacy/</loc>
@@ -23,5 +23,8 @@
 </url>
 <url>
 <loc>/openopps-help/getting-started/top-10-tips/</loc>
+</url>
+<url>
+<loc>/openopps-help/getting-started/what-is-open-opportunities/</loc>
 </url>
 </urlset>
