@@ -32,7 +32,7 @@ There are two ways you can participate.
 
 ### Post an opportunity 
 You can create and post opportunities.  Get help on projects, propose working groups, get testers for new ideas or products or create a team to work on an idea you have.
-[See how you can create an opportunity](../../opportunity/create/). 
+[See how you can create an opportunity](../opportunity/create/). 
 
 ### Work on an opportunity
 You can apply to and work on opportunities that sound interesting.  Choose from a wide range of projects and discover something new. [Check out available opportunities](https://openopps.usajobs.gov/tasks)
