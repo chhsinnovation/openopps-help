@@ -40,8 +40,8 @@
   "@type": "WebPage",
   "mainEntityOfPage": "/openopps-help/",
   "headline": "What is Open Opportunities?",
-  "datePublished": "2018-03-08T11:09:38-05:00",
-  "dateModified": "2018-03-08T11:09:38-05:00",
+  "datePublished": "2018-03-08T18:03:06-05:00",
+  "dateModified": "2018-03-08T18:03:06-05:00",
   "description": "Help with using Open Opportunities",
   "author": {
     "@type": "Organization",
@@ -686,23 +686,23 @@ main {
   margin-bottom: 6rem; }
   @media only screen and (min-width: 62em) {
     .usajobs-content-well {
-      width: calc(66.6666666667% - 5rem);
+      width: calc(75% - 5.25rem);
       float: left;
       margin-left: 3rem; } }
   @media only screen and (min-width: 75em) {
     .usajobs-content-well {
-      width: calc(66.6666666667% - 5rem);
+      width: calc(75% - 5.25rem);
       float: left;
       margin-left: 3rem; } }
 
 @media only screen and (min-width: 62em) {
   .usajobs-leftrail {
-    width: calc(33.3333333333% - 4rem);
+    width: calc(25% - 3.75rem);
     float: left;
     margin-left: 3rem; } }
 @media only screen and (min-width: 75em) {
   .usajobs-leftrail {
-    width: calc(33.3333333333% - 4rem);
+    width: calc(25% - 3.75rem);
     float: left;
     margin-left: 3rem; } }
 @media only screen and (min-width: 62em) {
@@ -1345,7 +1345,11 @@ main {
       padding-left: 3.8rem; }
 
 .usajobs-openopps-help-center-article-sidenav {
+  display: none;
   margin-top: 4.5rem; }
+  @media only screen and (min-width: 62em) {
+    .usajobs-openopps-help-center-article-sidenav {
+      display: block; } }
   .usajobs-openopps-help-center-article-sidenav__title {
     color: #112e51; }
 
@@ -1925,6 +1929,24 @@ svg.usajobs-footer--openopps__logo {
     margin-left: 0.5rem; }
 .usajobs-openopps-help-center-article .usajobs-content-well a {
   text-decoration: underline; }
+.usajobs-openopps-help-center-article__callout {
+  max-width: 17.7rem;
+  margin-left: auto;
+  margin-right: auto; }
+  @media (min-width: 37.5em) {
+    .usajobs-openopps-help-center-article__callout {
+      float: right;
+      padding: 3rem; } }
+.usajobs-openopps-help-center-article__callout-link {
+  display: block;
+  padding: 0.5rem;
+  color: #0071bc; }
+  .usajobs-openopps-help-center-article__callout-link svg {
+    fill: #0071bc;
+    height: 20px;
+    width: 20px;
+    padding-top: 0.5rem;
+    padding-right: 0.5rem; }
 
   </style>
 
@@ -1956,7 +1978,7 @@ svg.usajobs-footer--openopps__logo {
       <div class="usajobs-nav__header-container">
         <div class="usajobs-nav__header usajobs-nav--openopps">
           <div class="usajobs-nav__brand-container usajobs-nav--openopps__brand-container">
-            <a class="usajobs-nav__brand usajobs-nav--openopps__brand" href="/openopps-help/">
+            <a class="usajobs-nav__brand usajobs-nav--openopps__brand" href="https://openopps.usajobs.gov/">
               <svg width="298px" height="39px" viewBox="0 0 298 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Open Opportunities logo</title>
     <g id="Desktop-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-27.000000, -65.000000)">
@@ -1976,13 +1998,6 @@ svg.usajobs-footer--openopps__logo {
       </div>
     </div>
   </nav>
-  <div class="usa-nav-secondary">
-    <ul class="usa-unstyled-list usa-nav-secondary-links">
-      <li>
-        <a href="http://openopps.usajobs.gov/tasks/">Back to Search</a>
-      </li>
-    </ul>
-  </div>
 </header>
 
     <amp-analytics type="googleanalytics" id="amp-analytics">
@@ -2019,14 +2034,14 @@ svg.usajobs-footer--openopps__logo {
           Getting started
         </a>
       </li>
-      <li class="usajobs-openopps-help-center-nav-secondary__container account ">
+      <!-- li class="usajobs-openopps-help-center-nav-secondary__container account ">
         <a class="usajobs-openopps-help-center-nav-secondary__item" href="/openopps-help/account/">
           Account
         </a>
-      </li>
-      <li class="usajobs-openopps-help-center-nav-secondary__container opportunity-help ">
-        <a class="usajobs-openopps-help-center-nav-secondary__item" href="/openopps-help/opportunity-help/">
-          Opportunity help
+      </li -->
+      <li class="usajobs-openopps-help-center-nav-secondary__container opportunity ">
+        <a class="usajobs-openopps-help-center-nav-secondary__item" href="/openopps-help/opportunity/">
+          Opportunity
         </a>
       </li>
       <li class="usajobs-openopps-help-center-nav-secondary__container what-is-new ">
@@ -2050,16 +2065,17 @@ svg.usajobs-footer--openopps__logo {
   </h3>
   <ul class="usa-sidenav-list">
     <li>
-      <a class="usa-current" href="#">
+      <a class="usa-current" href="/openopps-help/">
         What is Open Opportunities?
       </a>
     </li>
     <li>
-      <a  href="/openopps-help/opportunity/create/">
-        How do I create an opportunity?
+      <a  href="/openopps-help/getting-started/top-10-tips/">
+        Top 10 tips for creating an ideal opportunity
       </a>
     </li>
   </ul>
+
 
 </div>
 
@@ -2112,9 +2128,10 @@ svg.usajobs-footer--openopps__logo {
   <p>
 	   You can create and post opportunities. Get help on projects, propose working groups, get testers for new ideas or products or create a team to work on an idea you have.
    </p>
-   <p>
-     <a href="/openopps-help/opportunity/create/">See how you can create an opportunity.</a>
-   </p>
+   <ul>
+     <li><a href="/openopps-help/opportunity/create/">See how you can create an opportunity.</a></li>
+     <li><a href="/openopps-help/getting-started/top-10-tips/">Get tips on how to create an ideal opportunity.</a></li>
+   </ul>
 
 	<h4>Work on an opportunity</h4>
   <p>
