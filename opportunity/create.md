@@ -19,7 +19,7 @@ title: How to create an opportunity
 
 ### Get Participants
 1.	Advertise your opportunity
-* Use our [email template](Open-opportunities-marketing-email-template.docx/){:target="_blank"} and the **Share** link to let people know about your opportunity.
+* Use our [email template](marketing-email-template.docx){:target="_blank"} and the **Share** link to let people know about your opportunity.
 2.	Review  applicants
 * You’ll get an email every time someone applies to your opportunity.
 * Click on an applicant’s name to review their profile.
