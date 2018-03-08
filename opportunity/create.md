@@ -7,7 +7,7 @@ title: How to create an opportunity
 
 ## Before you get started
 1.	Ask your supervisor if it’s okay to post an opportunity—you need their approval.
-2.	Read our [10 tips for creating an opportunity](../getting-started/top-10-tips/).
+2.	Read our [10 tips for creating an opportunity](../../getting-started/top-10-tips/).
 
 ## Create your opportunity
 1.	Go to the Open Opportunities search page and click **+ Post opportunity**. 
@@ -17,7 +17,7 @@ title: How to create an opportunity
 
 ## Get Participants 
 1.	Advertise your opportunity
-* Use our [email template](../opportunity/Open-opportunities-marketing-email-template.docx) and the **Share** link to let people know about your opportunity.
+* Use our [email template](Open-opportunities-marketing-email-template.docx/){:target="_blank"} and the **Share** link to let people know about your opportunity.
 2.	Review  applicants
 * You’ll get an email every time someone applies to your opportunity.
 * Click on an applicant’s name to review their profile.
