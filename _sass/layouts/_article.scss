@@ -57,4 +57,29 @@
       text-decoration: underline;
     }
   }
+
+  &__callout {
+    max-width: 17.7rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include grid-media($M) {
+      float: right;
+      padding: $size-M;
+    }
+  }
+
+  &__callout-link {
+    display: block;
+    padding: $size-base;
+    color: $color-primary;
+
+    svg {
+      fill: $color-primary;
+      height: 20px;
+      width: 20px;
+      padding-top: $size-base;
+      padding-right: $size-base;
+    }
+  }
 }

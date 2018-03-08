@@ -1,7 +1,7 @@
 ---
-permalink: opportunity/create/
+permalink: opportunity/
 layout: article
-section: getting-started
+section: opportunity
 category: opportunity
 sidenav: opportunity
 title: How to create an opportunity
@@ -9,13 +9,26 @@ title: How to create an opportunity
 
 ### Before you get started
 1.	Ask your supervisor if it’s okay to post an opportunity—you need their approval.
-2.	Read our [10 tips for creating an opportunity](../../getting-started/top-10-tips/).
+2.	Read our [10 tips for creating an opportunity](../getting-started/top-10-tips/).
 
 ### Create your opportunity
 1.	Go to the Open Opportunities search page and click **+ Post opportunity**.
 3.	Fill out as much information as you can – the more info you give, the better chance you’ll get the right people.
 4.	Click **Submit for review** when you're ready to post it—you need to do this even if you save it as a draft.
 5.	The administrators will review your opportunity. They’ll send you an email when it’s approved and goes live. Or, email you if you need to make changes.
+
+<div class="usajobs-openopps-help-center-article__callout">
+  <a class="usajobs-openopps-help-center-article__callout-link" href="{{ site.baseurl }}/assets/Opportunity_Creation_Process_final.pdf">
+    <amp-img src="{{ site.baseurl }}/assets/images/OppCreationProcessMap@2x.png"
+          srcset="{{ site.baseurl }}/assets/images/OppCreationProcessMap@2x.png 768w,
+                  {{ site.baseurl }}/assets/images/images/OppCreationProcessMap@2x-narrow.png 100w"
+           width="44"
+          height="72"
+          layout="responsive"
+             alt="Open Opportunities Process Map"></amp-img>
+    {% include icons/download.svg %}Download a guide
+  </a>
+</div>
 
 ### Get Participants
 1.	Advertise your opportunity
@@ -46,3 +59,7 @@ Edit your opportunity to change due dates, tasks and more.
 
 #### Need to cancel?
 You can cancel your opportunity at any time.
+
+#### Advertise your opportunity
+
+[Learn how to advertise your opportunity.](advertise/)

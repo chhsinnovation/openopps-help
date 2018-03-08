@@ -59,6 +59,6 @@ Many tasks do not require participants to be experts in a given field. If you ar
 The DigitalGov usability team requested help with [writing usability case studies](https://openopps.usajobs.gov/tasks/18){:target="_blank"}. They clearly stated that using WordPress was part of the task, but they would accept a participant who was willing to learn WordPress basics.
 
 ## 10. Market your Open Opportunity
-Are there communities of practice (CoP) that might be interested in your task? Use our [marketing email template](../opportunity/marketing-email-template.docx){:target="_blank"} (1 page, 14 kb, MS Word .docx) to craft a message.
+Are there communities of practice (CoP) that might be interested in your task? Use our [marketing email template](../../opportunity/marketing-email-template.docx){:target="_blank"} (1 page, 14 kb, MS Word .docx) to craft a message.
 
 Want to target an individual (or six?) Use the **Share** link in your opportunity to send a form email.

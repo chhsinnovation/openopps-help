@@ -6,13 +6,30 @@
   </h3>
   <ul class="usa-sidenav-list">
     <li>
-      <a {% if page.sidenav == 'getting-started' %}class="usa-current"{% endif %} href="#">
+      <a {% if page.sidenav == 'getting-started' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/">
         What is Open Opportunities?
       </a>
     </li>
     <li>
-      <a {% if page.sidenav == 'opportunity' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/opportunity/create/">
-        How do I create an opportunity?
+      <a {% if page.sidenav == 'top-10-tips' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/getting-started/top-10-tips/">
+        Top 10 tips for creating an ideal opportunity
+      </a>
+    </li>
+  </ul>
+{% endif %}
+{% if page.section == 'opportunity' %}
+  <h3 class="usajobs-openopps-help-center-article-sidenav__title">
+    Opportunity
+  </h3>
+  <ul class="usa-sidenav-list">
+    <li>
+      <a {% if page.sidenav == 'opportunity' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/opportunity/">
+        How to create an opportunity
+      </a>
+    </li>
+    <li>
+      <a {% if page.sidenav == 'opportunity-advertise' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/opportunity/advertise/">
+        How to advertise an opportunity
       </a>
     </li>
   </ul>
