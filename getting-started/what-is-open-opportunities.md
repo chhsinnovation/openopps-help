@@ -10,7 +10,7 @@ Open Opportunities is a government wide program offering professional developmen
 Open Opportunities is for federal employees only and offers a wide variety of real world projects to work on.  
 
 By participating you can:
-* Sharpen your existing skills, or learn new ones—there’s no training required.
+* Sharpen your existing skills, or learn new ones.
 * Break out of your routine—collaborate with other employees across different agencies.
 * Work remotely or in-person—in fact 99.9% can be done remotely, so there are no travel costs.
 * Choose from a wide range of projects across the government— some may take as little as 1-2 hours, while others may take 20% time over several months.
