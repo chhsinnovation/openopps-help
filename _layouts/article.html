@@ -5,38 +5,20 @@
     {% include header.html %}
     {% include analytics.html %}
     <div class="usajobs-openopps-help-center">
-      <!-- include components/search-banner-with-nav.html
-           include components/breadcrumbs.html -->
-      <section class="usajobs-shell usajobs-shell--large" data-object="help-article">
+      {% include components/banner.html %}
+      {% include components/nav/secondary.html %}
+      <section class="usajobs-shell usajobs-shell--large">
         <section class="usajobs-canvas">
           <div class="usajobs-openopps-help-center-article usajobs-content-gutter">
+            <aside class="usajobs-leftrail">
+              {% include components/nav/sidenav.html %}
+            </aside>
             <main class="usajobs-content-well" id="main-content">
               <div class="usajobs-openopps-help-center-article__container">
-                <h1>{{ page.title }}</h1>
+                <h1 class="usajobs-openopps-help-center-article__title">{{ page.title }}</h1>
                 {{ content }}
               </div>
             </main>
-            <aside class="usajobs-rightrail">
-              {% strip %}
-              {% assign sorted_pages = site.html_pages | sort:"title" %}
-              <h3 class="usajobs-openopps-help-center-article__related">Related articles</h3>
-              <ul class="usajobs-openopps-help-center-article__related-list">
-              {% for node in sorted_pages %}
-                {% if node.category == page.category %}
-                  {% if node.exclude_from_category != true %}
-                    {% if node.url != page.url %}
-                <li>
-                  <a href="{{ site.baseurl }}{{ node.url }}">
-                    {{ node.title }}
-                  </a>
-                </li>
-                    {% endif %}
-                  {% endif %}
-                {% endif %}
-              {% endfor %}
-              {% endstrip %}
-              </ul>
-            </aside>
           </div>
         </section>
       </section>

@@ -1,0 +1,17 @@
+// Banner
+
+.usajobs-openopps-help-center-banner {
+  padding: $size-M $size-M $size-L $size-M;
+  background: $color-primary-alt-darkest;
+
+  &__title {
+    margin: 0;
+    color: $color-white;
+  }
+
+  &__link,
+  &__link:visited {
+    color: $color-white;
+    text-decoration: none;
+  }
+}

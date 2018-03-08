@@ -134,6 +134,13 @@ $duration-slow:   0.8s;
   }
 }
 
+@mixin orderedList() {
+  > li {
+    line-height: 1.5;
+    margin-bottom: 0.5em;
+  }
+}
+
 @mixin usa-sidenav-list {
   @include unstyledList();
 
@@ -168,8 +175,8 @@ $duration-slow:   0.8s;
     }
 
     &.usa-current { /* stylelint-disable-line selector-no-qualifying-type */
-      border-left: 0.4rem solid $color-primary;
-      color: $color-primary;
+      border-left: 0.4rem solid $color-teal;
+      color: $color-base;
       font-weight: $font-bold;
       padding-left: 1.4rem;
     }
@@ -228,7 +235,6 @@ $duration-slow:   0.8s;
 // Only display content to screen readers. A la Bootstrap 4.
 //
 // See: http://a11yproject.com/posts/how-to-hide-content/
-
 @mixin sr-only {
   position: absolute;
   width: 1px;
@@ -245,7 +251,6 @@ $duration-slow:   0.8s;
 // Useful for "Skip to main content" links; see http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G1
 //
 // Credit: HTML5 Boilerplate
-
 @mixin sr-only-focusable {
   &:active,
   &:focus {

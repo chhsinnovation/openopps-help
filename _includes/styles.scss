@@ -10,10 +10,12 @@
 @import 'base';
 
 // Components
-@import 'nav';
-@import 'footer';
 @import 'header-nav';
+@import 'nav';
+@import 'banner';
+@import 'nav-secondary';
 @import 'sidenav';
+@import 'footer';
 
 // Layouts
 @import 'layouts/home';

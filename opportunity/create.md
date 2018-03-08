@@ -1,21 +1,23 @@
 ---
 permalink: opportunity/create/
 layout: article
+section: getting-started
 category: opportunity
+sidenav: opportunity
 title: How to create an opportunity
 ---
 
-## Before you get started
+### Before you get started
 1.	Ask your supervisor if it’s okay to post an opportunity—you need their approval.
 2.	Read our [10 tips for creating an opportunity](../../getting-started/top-10-tips/).
 
-## Create your opportunity
-1.	Go to the Open Opportunities search page and click **+ Post opportunity**. 
+### Create your opportunity
+1.	Go to the Open Opportunities search page and click **+ Post opportunity**.
 3.	Fill out as much information as you can – the more info you give, the better chance you’ll get the right people.
 4.	Click **Submit for review** when you're ready to post it—you need to do this even if you save it as a draft.
 5.	The administrators will review your opportunity. They’ll send you an email when it’s approved and goes live. Or, email you if you need to make changes.
 
-## Get Participants 
+### Get Participants
 1.	Advertise your opportunity
 * Use our [email template](Open-opportunities-marketing-email-template.docx/){:target="_blank"} and the **Share** link to let people know about your opportunity.
 2.	Review  applicants
@@ -27,21 +29,20 @@ title: How to create an opportunity
 
 Your opportunity is now **In Progress**. Turn the applicant toggle back on if you want more participants.
 
-## Contact Participants
+### Contact Participants
 1.	Email assigned participants to get them started on their tasks.
 2.	We’ll email the applicants you didn’t select.
 3.	Keep in touch with participants to track status.  
 
-## Wrapping up
-Is your opportunity done? 
+### Wrapping up
+Is your opportunity done?
 1.	Click **Task complete**, if your participants have completed their tasks.
 2.	Click **Complete opportunity**, when you opportunity is done—this will close out your opportunity and you’ll get credit for the work.
 
 Once your opportunity is complete, we’ll update your profile with your achievement. Don’t forget to thank your participants for a job well done.
 
-### Need more time? 
+#### Need more time?
 Edit your opportunity to change due dates, tasks and more.
 
-### Need to cancel? 
+#### Need to cancel?
 You can cancel your opportunity at any time.
-

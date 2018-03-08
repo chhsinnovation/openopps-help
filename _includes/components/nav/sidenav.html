@@ -1,0 +1,20 @@
+
+<div class="usajobs-openopps-help-center-article-sidenav">
+{% if page.section == 'getting-started' %}
+  <h3 class="usajobs-openopps-help-center-article-sidenav__title">
+    Getting started
+  </h3>
+  <ul class="usa-sidenav-list">
+    <li>
+      <a {% if page.sidenav == 'getting-started' %}class="usa-current"{% endif %} href="#">
+        What is Open Opportunities?
+      </a>
+    </li>
+    <li>
+      <a {% if page.sidenav == 'opportunity' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/opportunity/create/">
+        How do I create an opportunity?
+      </a>
+    </li>
+  </ul>
+{% endif %}
+</div>
