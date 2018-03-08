@@ -45,6 +45,12 @@
     ol {
       margin-left: .9em;
       margin-bottom: $size-S;
+      padding-left: 0;
+
+      ul,
+      ol {
+        margin-left: $size-base;
+      }
     }
 
     a {
