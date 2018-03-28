@@ -8,7 +8,7 @@ title: How to participate in an opportunity
 ---
 Participating in an opportunity is a great way to gain experience, contribute your expertise and work with others across the Federal Government.
 
-To participate, you need to create an account and fill out your profile, including your skills, interests and a short bio. And, you also need to ask your supervisor to make sure it’s okay for you to participate.
+To participate, you need to [create an account](../account/create/) and fill out your profile, including your skills, interests and a short bio. And, you also need to ask your supervisor to make sure it’s okay for you to participate.
 
 Once you have an account, you can apply to any open opportunity.  
 
