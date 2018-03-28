@@ -1,5 +1,5 @@
 ---
-permalink: opportunity/participate.md
+permalink: opportunity/participate/
 layout: article
 section: opportunity
 category: opportunity
