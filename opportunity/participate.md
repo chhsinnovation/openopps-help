@@ -3,7 +3,7 @@ permalink: opportunity/participate/
 layout: article
 section: opportunity
 category: opportunity
-sidenav: opportunity
+sidenav: opportunity-participate
 title: How to participate in an opportunity
 ---
 Participating in an opportunity is a great way to gain experience, contribute your expertise and work with others across the Federal Government.
@@ -12,8 +12,8 @@ To participate, you need to [create an account](../../account/create/) and fill 
 
 Once you have an account, you can apply to any open opportunity.  
 
-1. Click **Find yours** to search for opportunities that interest you. 
-2. Use the ‘open’ filter to narrow your results to only show ones that are accepting applicants. 
+1. Click **Find yours** to search for opportunities that interest you.
+2. Use the ‘open’ filter to narrow your results to only show ones that are accepting applicants.
 3. Read the opportunity details to learn what skills are needed, how much time is involved and to see if it’s a good match for you.
 4. Click **Apply** if you’re interested in an opportunity.
 

@@ -1,9 +1,9 @@
 ---
-permalink: account/create/
-layout: article
+permalink: account/
+layout: default
 section: account
 category: account
-sidenav: create-account
+sidenav: account
 title: How to create an account
 ---
 
@@ -12,7 +12,7 @@ To participate in Open Opportunities, you first must create an account.  With an
 * Edit your profile to highlight your skills, experience and what you’re interested in.
 * Post opportunities.
 * Apply to opportunities.
-* Manage your opportunities. 
+* Manage your opportunities.
 
 To create an account:
 
@@ -26,4 +26,3 @@ To create an account:
 Once you’ve created your account, you need to edit and complete your profile.  Your profile highlights your skills, experience and areas of interest, such as career areas, agencies you’re interested in and other topics.
 
 Your profile is important because this is what opportunity creators will look at first, if you apply to their opportunity. A complete profile will also help you connect with others who share similar interests and skills.
-
