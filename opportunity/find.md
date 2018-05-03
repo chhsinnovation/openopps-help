@@ -25,8 +25,7 @@ An opportunity that’s “in progress” has already started.  Participants hav
 An opportunity that’s “completed” is done.  The work has been completed and you can no longer apply to the opportunity.
 
 ### Skill
-You can search for opportunities by the type of skills you have or are looking to gain. Examples are; graphic design, writing, photography or data visualization.
-You can enter as many skills as you’d like and the search results will update based on what you enter. 
+You can search for opportunities by the type of skills you have or are looking to gain. Examples are graphic design, writing, photography or data visualization. You can enter as many skills as you’d like and the search results will update based on what you enter. 
 
 ### Career field
 You can search for opportunities by career field.  Select a career field from the pre-populated drop down list.  
@@ -41,7 +40,7 @@ You can search for opportunities by how much time you have or are willing to com
 This is an opportunity that requires a single commitment. There is a clearly defined deliverable and you can expect to complete it within a set amount of hours. 
 
 #### Ongoing
-This is an opportunity where the work will take a longer period of time and requires you to work several hours per week (usually 8 hours) of time over several months.
+This is an opportunity where the work will take a longer period of time and requires you to work several hours per week (usually 8 hours) over several months.
 
 #### Full-time detail
 This is a temporary assignment to a different position for a specified period. You are expected to return to your regular duties at the end of the assignment.  Your agency will need to complete paperwork for you to work on a full-time detail opportunity. 
