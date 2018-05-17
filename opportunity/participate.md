@@ -12,8 +12,8 @@ To participate, you need to [create an account](../../account/) and fill out you
 
 Once you have an account, you can apply to any open opportunity.  
 
-1. Click **Find yours** to search for opportunities that interest you.
-2. Use the ‘open’ filter to narrow your results to only show ones that are accepting applicants.
+1. Click **Search opportunities** and enter a keyword into the search box to search for opportunities that interest you.
+2. Use the search filters to narrow your results by status, skill, career field, time commitment and more.
 3. Read the opportunity details to learn what skills are needed, how much time is involved and to see if it’s a good match for you.
 4. Click **Apply** if you’re interested in an opportunity.
 
