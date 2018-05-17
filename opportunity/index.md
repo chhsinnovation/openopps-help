@@ -10,12 +10,14 @@ title: How to create an opportunity
 ### Before you get started
 1.	Ask your supervisor if it’s okay to post an opportunity—you need their approval.
 2.	Read our [10 tips for creating an opportunity](../getting-started/top-10-tips/).
+3.  [Create an account](https://openopps.usajobs.gov/login) if you don’t already have one—you must have an account to create and post an opportunity.
 
 ### Create your opportunity
-1.	Go to the Open Opportunities search page and click **+ Post opportunity**.
-3.	Fill out as much information as you can – the more info you give, the better chance you’ll get the right people.
-4.	Click **Submit for review** when you're ready to post it—you need to do this even if you save it as a draft.
-5.	The administrators will review your opportunity. They’ll send you an email when it’s approved and goes live. Or, email you if you need to make changes.
+1.	Sign into Open Opportunities and click **Create opportunity**.
+2.	Fill out as much information as you can – the more info you give, the better chance you’ll get the right people.
+3.  Click **Preview** to review the opportunity—make sure it has enough detail and there are no spelling or grammatical errors.
+4.	Click **Submit** when you're ready to post the opportunity. Or, click **Save for later** if you’re not ready to post—we’ll save it as a draft in your profile.
+5.	The administrators will review your opportunity after your click **Submit**. They’ll send you an email when it’s approved and goes live. Or, email you if you need to make changes.
 
 <div class="usajobs-openopps-help-center-article__callout">
   <a class="usajobs-openopps-help-center-article__callout-link" href="{{ site.baseurl }}/assets/Opportunity_Creation_Process_final.pdf">
@@ -50,7 +52,7 @@ Your opportunity is now **In Progress**. Turn the applicant toggle back on if yo
 ### Wrapping up
 Is your opportunity done?
 1.	Click **Task complete**, if your participants have completed their tasks.
-2.	Click **Complete opportunity**, when you opportunity is done—this will close out your opportunity and you’ll get credit for the work.
+2.	Click **Complete opportunity**, when all of the work is done—this will close out your opportunity and you’ll get credit for the work.
 
 Once your opportunity is complete, we’ll update your profile with your achievement. Don’t forget to thank your participants for a job well done.
 
