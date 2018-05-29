@@ -38,6 +38,8 @@ title: How to create an opportunity
 2.	Review  applicants
 * You’ll get an email every time someone applies to your opportunity.
 * Click on an applicant’s name to review their profile.
+* Call or email the applicant to learn more about their skill set, interests or to get a better idea if they’re the right person for the work. 
+
 3.	Assign participants
 * Are they a fit?  Click **+** to assign participant(s)—once done, click **Next Step**.
 * We'll send an automatic email to participants telling them they’re selected.
