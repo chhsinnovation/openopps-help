@@ -4,7 +4,7 @@ layout: article
 section: opportunity
 category: opportunity
 sidenav: opportunity-accept-applications
-title: How to continue accepting or not accepting applications for an opportunity
+title: How to accept or not accept applications for an opportunity
 ---
 
 The “continue accepting applicants” toggle button controls whether or not an opportunity is accepting applications.  You will only see the toggle button if you created the opportunity and you’re signed into your profile.
