@@ -44,7 +44,7 @@ title: How to create an opportunity
 * Are they a fit?  Click **+** to assign participant(s)—once done, click **Next Step**.
 * We'll send an automatic email to participants telling them they’re assigned.
 
-Your opportunity is now **In Progress**. Turn the applicant toggle back on if you want more participants.
+Your opportunity is now **In Progress**. Turn the [applicant toggle back on](accept-applications/) if you want more participants.
 
 ### Contact Participants
 1.	Email assigned participants to get them started on their tasks.
