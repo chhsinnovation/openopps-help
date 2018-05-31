@@ -3,7 +3,7 @@ permalink: opportunity/sample-opportunities/
 layout: article
 section: opportunity
 category: opportunity
-sidenav: sample-opportunities
+sidenav: opportunity-sample-opportunities
 title: Sample opportunities
 ---
 
