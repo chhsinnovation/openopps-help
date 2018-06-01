@@ -9,7 +9,7 @@ title: How to create an opportunity
 
 ### Before you get started
 1.	Ask your supervisor if it’s okay to post an opportunity—you need their approval.
-2.	Read our [10 tips for creating an opportunity](../getting-started/top-10-tips/).
+2.	Read our [10 tips for creating an opportunity](../getting-started/top-10-tips/) and [check out a few examples](sample-opportunities).
 3.  [Create an account](../account/) if you don’t already have one—you must have an account to create and post an opportunity.
 
 ### Create your opportunity
