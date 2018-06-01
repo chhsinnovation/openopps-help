@@ -67,7 +67,7 @@ If you want to help spread some great innovative practices and gain coaching exp
 ### Example 1. Industry Days
 
 **Headline:**
-Do you want to learn how to put together an Industry Day dession?
+Do you want to learn how to put together an Industry Day session?
 
 **Introduction:**
 You’ve heard about Industry Days, but have you ever participated in one?  Industry days benefit both the government and industry.  The government benefits by gaining knowledge of technology trends, new commercial products, and industry capabilities. Industry benefits by gaining a greater understanding of government requirements and the opportunity to better plan and make informed business decisions regarding participation. This communication between the government and industry can enhance competition, attract new businesses to the marketplace, and increase subcontracting opportunities.
