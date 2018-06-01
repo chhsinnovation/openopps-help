@@ -21,6 +21,8 @@ Define exactly what needs to be done and what deliverables you expect. Include l
 
 The DigitalGov team [needed a writer](https://openopps.usajobs.gov/tasks/25){:target="_blank"} who could contribute to a weekly blog series. The task included a link to the blog series so that potential participants could get familiar with existing articles.
 
+[See some other examples](../../opportunity/sample-opportunities).
+
 ## 3. Give the big picture
 Include information on how a participants’ work will be used. This helps participants understand their work is part of a greater effort.
 
@@ -62,3 +64,5 @@ The DigitalGov usability team requested help with [writing usability case studie
 Are there communities of practice (CoP) that might be interested in your task? Use our [marketing email template](../../opportunity/marketing-email-template.docx){:target="_blank"} (1 page, 14 kb, MS Word .docx) to craft a message.
 
 Want to target an individual (or six?) Use the **Share** link in your opportunity to send a form email.
+
+
