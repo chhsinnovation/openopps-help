@@ -77,7 +77,7 @@ We’re looking for 1102s or CORs, with little to no experience with planning an
 
 ### Example 2. Market Research
 **Headline:**
-Looking for help in conducting market research for <insert type of purchase: A&E, IT, or type of product or service etc.> 
+Looking for help in conducting market research for professional services. 
 
 **Introduction:**
 Our office is looking for an experienced contracting specialist to share best practices for conducting market research for professional services.
