@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>/openopps-help/opportunity/accept-applications/</loc>
+</url>
+<url>
 <loc>/openopps-help/opportunity/advertise/</loc>
 </url>
 <url>
 <loc>/openopps-help/opportunity/search/</loc>
 </url>
 <url>
-<loc>/openopps-help/terms-and-conditions/</loc>
-</url>
-<url>
 <loc>/openopps-help/</loc>
 </url>
 <url>
-<loc>/openopps-help/what-is-new/</loc>
+<loc>/openopps-help/terms-and-conditions/</loc>
 </url>
 <url>
 <loc>/openopps-help/account/</loc>
@@ -25,7 +25,13 @@
 <loc>/openopps-help/privacy/</loc>
 </url>
 <url>
+<loc>/openopps-help/what-is-new/</loc>
+</url>
+<url>
 <loc>/openopps-help/opportunity/participate/</loc>
+</url>
+<url>
+<loc>/openopps-help/opportunity/sample-opportunities/</loc>
 </url>
 <url>
 <loc>/openopps-help/getting-started/top-10-tips/</loc>
