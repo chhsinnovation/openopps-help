@@ -18,8 +18,9 @@ To create an account:
 
 1. Click **Sign In**—you’ll come to the sign in page.
 2. Scroll down and click **Create a new account**.
-3. Fill out all the information, create a password and verify you’re a federal employee.
-4. Click **Create account** and you’ll go to the Open Opportunities dashboard.
+3. Fill out all the information and verify you’re a federal employee.
+4. Click **Create account**–you’ll receive a confirmation email to the government email address you included in Step 3.
+5. Follow the instructions in the confirmation email—use the link to create your password and complete your account set-up.
 
 ## Edit your profile
 
