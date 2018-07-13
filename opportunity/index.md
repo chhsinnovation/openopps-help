@@ -54,7 +54,7 @@ Your opportunity is now **In Progress**. Turn the [applicant toggle back on](acc
 ### Wrapping up
 Is your opportunity done?
 1.	Click **Task complete**, if your participants have completed their tasks.
-2.	Click **Complete opportunity**, when all of the work is done—this will close out your opportunity and you’ll get credit for the work.
+2.	Click **Complete opportunity**, when all of the work is done—this will close out your opportunity and participants will get credit for the work.
 
 Once your opportunity is complete, we’ll update your profile with your achievement. Don’t forget to thank your participants for a job well done.
 
