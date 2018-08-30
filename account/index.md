@@ -7,23 +7,40 @@ sidenav: account
 title: How to create an account
 ---
 
-To participate in Open Opportunities, you first must create an account.  With an account, you can:
+To participate in Open Opportunities, you must have a profile. 
 
-* Edit your profile to highlight your skills, experience and what you’re interested in.
+With a profile, you can:
+
+* Highlight your skills, experience and what you’re interested in.
 * Post opportunities.
 * Apply to opportunities.
-* Manage your opportunities.
+* Manage your opportunities. 
 
-To create an account:
+You’ll also have the benefits of a USAJOBS profile, because Open Opportunities and USAJOBS now share one profile across both sites. 
 
-1. Click **Sign In**—you’ll come to the sign in page.
-2. Scroll down and click **Create a new account**.
-3. Fill out all the information and verify you’re a federal employee.
-4. Click **Create account**–you’ll receive a confirmation email to the government email address you included in Step 3.
-5. Follow the instructions in the confirmation email—use the link to create your password and complete your account set-up.
+There are three steps to creating an Open Opportunities profile.
 
-## Edit your profile
+## 1. Create a login.gov account
+You need a login.gov account to sign into Open Opportunities. You only need to create a login.gov account once. Once you create a login.gov account, you can use the same email address and password for both Open Opportunities and USAJOBS. 
 
-Once you’ve created your account, you need to edit and complete your profile.  Your profile highlights your skills, experience and areas of interest, such as career areas, agencies you’re interested in and other topics.
+1. Create a login.gov account—you only need to do this once.
+2. Enter an email address - use the same email address you use for USAJOBS. If you don’t have a USAJOBS profile, enter a personal email address. 
+3. Create a new password.
+4. Have a working phone number (mobile or landline) or an authentication application installed on a device—login.gov will send you a one-time security code.
 
-Your profile is important because this is what opportunity creators will look at first, if you apply to their opportunity. A complete profile will also help you connect with others who share similar interests and skills.
+Create your login.gov account.
+
+## 2. Create or link your USAJOBS profile
+Once you create a login.gov account, you’ll go to USAJOBS to link to your existing profile, or create a new one.
+
+You need a USAJOBS profile because Open Opportunities is now a part of USAJOBS and you’ll share one profile across the two sites. If you don’t have a USAJOBS profile, we’ll help you create one.
+
+## 3. Complete or link your Open Opportunities profile
+Once you’ve created your login.gov account and USAJOBS profile, we’ll help you create an Open Opportunities profile, or link to an existing one. 
+
+Your profile highlights your skills, experience and areas of interest, such as career areas, agencies you’re interested in and other topics.  We encourage you to review your information and fill in anything that’s missing.   
+
+## Why should I complete my profile?
+Having a complete profile is important because this is what opportunity creators will look at first, if you apply to their opportunity. A complete profile will also help you connect with others who share similar interests and skills.
+
+
