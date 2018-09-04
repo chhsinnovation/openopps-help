@@ -10,13 +10,13 @@ title: How to create an opportunity
 ### Before you get started
 1.	Ask your supervisor if it’s okay to post an opportunity—you need their approval.
 2.	Read our [10 tips for creating an opportunity](../getting-started/top-10-tips/) and [check out a few examples](sample-opportunities).
-3.  [Create an account](../account/) if you don’t already have one—you must have an account to create and post an opportunity.
+3.  [Create a profile](../account/) if you don’t already have one—you must have a profile to create and post an opportunity.
 
 ### Create your opportunity
 1.	Sign into Open Opportunities and click **Create opportunity**.
 2.	Fill out as much information as you can – the more info you give, the better chance you’ll get the right people.
 3.  Click **Preview** to review the opportunity—make sure it has enough detail and there are no spelling or grammatical errors.
-4.	Click **Submit** when you're ready to post the opportunity. Or, click **Save for later** if you’re not ready to post—we’ll save it as a draft in your profile.
+4.	Click **Submit** when you're ready to post the opportunity. Or, click **Save for later** if you’re not ready to post—we’ll save it as a draft. You can find your drafts under your **Created opportunities** on your home page.
 5.	The administrators will review your opportunity after your click **Submit**. They’ll send you an email when it’s approved and goes live. Or, email you if you need to make changes.
 
 <div class="usajobs-openopps-help-center-article__callout">
