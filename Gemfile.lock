@@ -256,10 +256,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (~> 183)
+  github-pages
   html-proofer
   jekyll-sitemap
   rouge
 
 BUNDLED WITH
-   1.16.1
+   1.17.2
