@@ -1,0 +1,20 @@
+.usa-sidenav-list {
+  @include usa-sidenav-list;
+}
+
+.usa-sidenav-sub_list {
+  @include usa-sidenav-sublist;
+}
+
+.usajobs-openopps-help-center-article-sidenav {
+  display: none;
+  margin-top: $size-L;
+
+  @include grid-media($L) {
+    display: block;
+  }
+
+  &__title {
+    color: $color-primary-darkest;
+  }
+}

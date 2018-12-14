@@ -1,0 +1,213 @@
+// Header variables ---------- //
+$height-nav-secondary: 5rem;
+$width-nav-sidebar:    250px;
+
+// z-indexes - TODO refactor to a site-wide z-index management approach
+$z-index-header:  7000;
+$z-index-overlay: 8000;
+$z-index-nav:     9000;
+
+// Header ------------- //
+.usa-header {
+  width: 100%;
+  border-bottom: 1px solid $color-gray-light;
+  background-color: $color-gray-dark;
+
+  a {
+    border-bottom: none;
+  }
+
+  .usa-search {
+    margin-bottom: 1.5rem;
+    float: right;
+    margin-bottom: 0;
+    max-width: 21.5rem;
+  }
+}
+
+.usa-logo {
+  float: left;
+  line-height: 4rem;
+  margin-left: $size-default;
+
+  @include grid-media($ML) {
+    margin-left: $size-M;
+  }
+
+  @include grid-media($L) {
+    line-height: 7.5rem;
+  }
+
+  a {
+    color: $color-white;
+    text-decoration: none;
+  }
+}
+
+.usa-logo-text {
+  display: block;
+  font-size: $h5-font-size;
+  font-style: normal;
+  font-weight: $font-bold;
+  margin: 0;
+
+  @include grid-media($L) {
+    display: block;
+    font-size: 2.4rem;
+    line-height: $heading-line-height;
+  }
+}
+
+// Header navigation ------------- //
+@mixin nav-border {
+  border-bottom: 0.7rem solid $color-primary;
+  padding-bottom: 1rem;
+}
+
+.usa-nav-link {
+  @include font-smoothing;
+
+  &:hover {
+    span {
+      @include grid-media($M) {
+        @include nav-border;
+      }
+    }
+  }
+}
+
+.usa-nav-container {
+  @include grid-container();
+  @include padding(null $site-margins);
+  max-width: $site-max-width;
+}
+
+.usa-nav {
+  display: block;
+  float: right;
+  position: relative;
+  width: auto;
+  background: $color-white;
+  @include padding(5rem 0 0 null);
+  border-left: none;
+
+  nav {
+    margin-top: 6rem;
+    min-height: 100%;
+
+    @include grid-media($L) {
+      margin-top: 0;
+    }
+  }
+
+  .usa-current {
+    border-left: 4px solid $color-primary;
+    color: $color-primary;
+    font-weight: $font-bold;
+    padding-left: 1.4rem;
+  }
+
+  .usa-button {
+    width: 100%;
+  }
+
+  .usa-search {
+    @include grid-media($L) {
+      margin-left: 1.5rem;
+    }
+  }
+}
+
+// Primary navigation ------------- //
+
+.usa-nav-primary {
+  @include usa-sidenav-list;
+  display: block;
+  order: 2;
+
+  @include grid-media($M) {
+    display: inline;
+  }
+
+  li {
+    border-top: none;
+  }
+
+  > li {
+    display: block;
+    width: 100%;
+
+    @include grid-media($M) {
+      display: inline-block;
+      width: auto;
+      margin-left: -4px;
+    }
+
+    > a {
+      display: block;
+      width: 100%;
+      @include padding(1.3rem 1.5rem 1.7rem 1.5rem);
+      color: $color-gray;
+      font-size: $h5-font-size;
+      font-weight: $font-bold;
+      line-height: 1.2;
+
+      &:hover {
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+// Extended header ----------- //
+.usa-header-extended {
+  .usa-header {
+    border-bottom: none;
+  }
+
+  .usa-logo {
+    @include margin(3rem null);
+  }
+
+  em {
+    font-size: 3.2rem;
+    line-height: 1;
+  }
+
+  .usa-navbar {
+    @include grid-container();
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: auto;
+    max-width: $site-max-width-L;
+  }
+
+  .usa-nav {
+    border-top: 1px solid $color-gray-light;
+    float: none;
+    padding: 0;
+    width: 100%;
+  }
+
+  .usa-nav-inner {
+    @include grid-container();
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1px;
+    max-width: $site-max-width-L;
+
+    @include grid-media($M) {
+      padding: 0 $size-default;
+    }
+  }
+
+  .usa-nav-primary {
+    @include clearfix;
+  }
+
+  .usa-nav-link {
+    padding-top: 1.9rem;
+  }
+}

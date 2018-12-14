@@ -1,0 +1,88 @@
+
+.usajobs-openopps-help-center-nav-secondary {
+  margin-bottom: $size-S;
+  background-color: $color-gray-lightest;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+  &__body {
+    max-width: $site-max-width;
+    margin-left: auto;
+    margin-right: auto;
+
+    a {
+      // Another override of the base styles just to be certain we don't have
+      // underlined links in the nav
+      text-decoration: none;
+    }
+  }
+
+  &__menu {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    text-align: left;
+  }
+
+  &__container {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+    &:before,
+    &:after {
+      content: none;
+    }
+
+    &.is-active .usajobs-openopps-help-center-nav-secondary__item {
+      font-weight: bold;
+      color: $color-base;
+      border-bottom: 3px solid $color-teal;
+    }
+  }
+
+  &__item {
+    @include clearfix();
+    display: block;
+    padding: $size-S $size-default;
+    font-size: $base-font-size;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    color: $color-gray-dark;
+
+    @include grid-media($SM) {
+      padding: $size-default $size-M;
+    }
+
+    &:visited {
+      color: $color-gray-dark;
+
+      &:hover {
+        color: $color-primary-darker;
+      }
+    }
+  }
+
+  &__text {
+    display: block;
+
+    @include grid-media($M) {
+      display: inline-block;
+    }
+  }
+
+  &__text-long {
+    display: none;
+
+    @include grid-media($M) {
+      display: inline-block;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}

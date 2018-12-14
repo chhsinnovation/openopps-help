@@ -1,0 +1,459 @@
+// Grid
+.usajobs-grid,
+.usajobs-grid-full {
+  @include grid-container();
+  max-width: $site-max-width-L;
+
+  @include grid-media($M) {
+    .usa-width-one-whole,
+    .usajobs-width-one-whole {
+      @include grid-column(6);
+    }
+    .usa-width-one-half,
+    .usajobs-width-one-half {
+      @include grid-column(3);
+    }
+    .usa-width-one-third,
+    .usajobs-width-one-third {
+      @include grid-column(2);
+    }
+    .usa-width-two-thirds,
+    .usajobs-width-two-thirds {
+      @include grid-column(4);
+    }
+    .usa-width-one-fourth,
+    .usajobs-width-one-fourth {
+      @include grid-column(3);
+
+      &:nth-child(2n) {
+        margin-right: 0;
+      }
+    }
+    .usa-width-three-fourths,
+    .usajobs-width-three-fourths {
+      @include grid-column(6);
+    }
+    .usa-width-one-sixth,
+    .usajobs-width-one-sixth {
+      @include grid-column(2);
+
+      &:nth-child(3n) {
+        margin-right: 0;
+      }
+    }
+    .usa-width-five-sixths,
+    .usajobs-width-five-sixths {
+      @include grid-column(5);
+    }
+    .usa-width-one-twelfth,
+    .usajobs-width-one-twelfth {
+      @include grid-column(2);
+
+      &:nth-child(3n) {
+        margin-right: 0;
+      }
+    }
+  }
+
+  @include grid-media($L) {
+    .usa-width-one-whole,
+    .usajobs-width-one-whole {
+      @include grid-column(12);
+    }
+    .usa-width-one-half,
+    .usajobs-width-one-half {
+      @include grid-column(6);
+    }
+    .usa-width-one-third,
+    .usajobs-width-one-third {
+      @include grid-column(4);
+    }
+    .usa-width-two-thirds,
+    .usajobs-width-two-thirds {
+      @include grid-column(8);
+    }
+    .usa-width-one-fourth,
+    .usajobs-width-one-fourth {
+      @include grid-column(3);
+
+      &:nth-child(2n) {
+        @include grid-column(3);
+      }
+
+      &:nth-child(4n) {
+        margin-right: 0;
+      }
+    }
+    .usa-width-three-fourths,
+    .usajobs-width-three-fourths {
+      @include grid-column(9);
+    }
+    .usa-width-one-sixth,
+    .usajobs-width-one-sixth {
+      @include grid-column(2);
+
+      &:nth-child(3n) {
+        @include grid-column(2);
+      }
+
+      &:nth-child(6n) {
+        margin-right: 0;
+      }
+    }
+    .usa-width-five-sixths,
+    .usajobs-width-five-sixths {
+      @include grid-column(10);
+    }
+    .usa-width-one-twelfth,
+    .usajobs-width-one-twelfth {
+      @include grid-column(1);
+
+      &:nth-child(3n) {
+        @include grid-column(1);
+      }
+
+      &:nth-child(12n) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.usajobs-grid {
+  padding: 0 $size-default;
+
+  @include grid-media($ML) {
+    padding-left: $size-M;
+    padding-right: $size-M;
+  }
+}
+
+.usajobs-grid-full {
+  padding: 0;
+}
+
+// Base styles
+html {
+  font-family: $font-sans;
+  font-size: $em-base;
+  @include box-sizing(border-box);
+}
+
+/* The * selector is banned from AMP - need to find another way
+*,
+*::before,
+*::after {
+  @include box-sizing(inherit);
+}
+*/
+
+body {
+  @include box-sizing(inherit);
+  @include font-smoothing;
+  @include font-feature-settings;
+  font-size: $base-font-size-px;
+  background-color: $color-white;
+  margin: 0;
+  padding: 0;
+  color: $color-base;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  @include h1();
+}
+
+h2 {
+  @include h2();
+}
+
+h3 {
+  @include h3();
+}
+
+h4 {
+  @include h4();
+}
+
+h5 {
+  @include h5();
+}
+
+h6 {
+  @include h6();
+}
+
+.usa-font-lead {
+  font-family: $font-serif;
+  font-size: $lead-font-size;
+  line-height: $lead-line-height;
+  max-width: $lead-max-width;
+}
+
+// BUTTONS
+$button-stroke: inset 0 0 0 2px;
+// scss-lint:disable PropertyCount
+.usa-button,
+.usa-button-primary,
+.usa-button:visited,
+.usa-button-primary:visited,
+button,
+[type="button"],
+[type="submit"],
+[type="reset"],
+[type="image"] {
+  @include box-sizing(inherit);
+  @include font-smoothing;
+  @include margin(0.5em 0.5em null null);
+  appearance: none;
+  background-color: $color-primary;
+  border: 0;
+  border-radius: 0.3rem;
+  color: $color-white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $font-sans;
+  font-size: $lead-font-size;
+  font-weight: $font-bold;
+  line-height: 1;
+  outline: none;
+  padding: $size-default 0;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+
+  @include grid-media($SM) {
+    width: auto;
+    padding: $size-default $size-M;
+  }
+
+  &:hover {
+    background-color: $color-primary-darker;
+    border-bottom: 0;
+    color: $color-white;
+    text-decoration: none;
+  }
+
+  &:focus {
+    box-shadow: $focus-shadow;
+  }
+
+  &:active {
+    background-color: $color-primary-darkest;
+  }
+
+
+  &.usa-button-secondary {
+    background-color: $color-secondary;
+
+    &:hover,
+    &.usa-button-hover {
+      background-color: $color-secondary-dark;
+    }
+
+    &:active,
+    &.usa-button-active {
+      background-color: $color-secondary-darkest;
+    }
+  }
+
+  &.usa-button-outline {
+    background-color: $color-white;
+    box-shadow: $button-stroke $color-primary;
+    color: $color-primary;
+
+    &:hover,
+    &.usa-button-hover {
+      box-shadow: $button-stroke $color-primary-darker;
+      color: $color-primary-darker;
+    }
+
+    &:active,
+    &.usa-button-active {
+      box-shadow: $button-stroke $color-primary-darkest;
+      color: $color-primary-darkest;
+    }
+
+    &:focus,
+    &.usa-button-focus {
+      box-shadow: $button-stroke $color-primary-darkest, $focus-shadow;
+    }
+  }
+
+  &.usa-button-outline-inverse {
+    background: transparent;
+    box-shadow: $button-stroke $color-white;
+    color: $color-white;
+
+    &:hover,
+    &.usa-button-hover {
+      box-shadow: $button-stroke $color-gray-lighter;
+      color: $color-gray-lighter;
+    }
+
+    &:active,
+    &.usa-button-active {
+      box-shadow: $button-stroke $color-gray-light;
+      color: $color-gray-lighter;
+    }
+
+    &:focus,
+    &.usa-button-focus {
+      box-shadow: $button-stroke $color-gray-light, $focus-shadow;
+    }
+  }
+
+  &.usa-button-big {
+    font-size: 1.9rem;
+    padding: 1.5rem 3rem;
+  }
+}
+
+amp-img {
+  width: 100%;
+}
+
+main {
+  display: block;
+
+  a {
+    text-decoration: underline;
+    color: $color-primary;
+
+    &:hover,
+    &:active {
+      color: $color-primary-darker;
+      outline: 0;
+      background-color: transparent;
+    }
+  }
+
+  a.usa-button,
+  a.usa-button-big,
+  a.usajobs-button {
+    text-decoration: none;
+  }
+
+  p {
+    line-height: $base-line-height;
+    margin: 1em 0;
+  }
+
+  blockquote {
+    line-height: $base-line-height;
+  }
+}
+
+.cf {
+  @include clearfix;
+}
+
+.usajobs-shell {
+  @include clearfix;
+  position: relative;
+  max-width: $site-max-width-L;
+  margin-left: auto;
+  margin-right: auto;
+  background: $color-white;
+}
+
+.usajobs-content-gutter {
+  padding: 0 $size-default;
+
+  @include grid-media($ML) {
+    padding-left: $size-M;
+    padding-right: $size-M;
+  }
+}
+
+.usajobs-content-well {
+  margin-bottom: $size-XL;
+
+  @include grid-media($L) {
+    @include grid-column(9);
+  }
+
+  @include grid-media($XL) {
+    @include grid-column(9);
+  }
+}
+
+.usajobs-leftrail {
+  @include grid-media($L) {
+    @include grid-column(3);
+  }
+
+  @include grid-media($XL) {
+    @include grid-column(3);
+  }
+
+  .usajobs-content-gutter {
+    @include grid-media($L) {
+      padding-right: 0;
+    }
+  }
+}
+
+.usajobs-rightrail {
+  @include grid-media($L) {
+    @include grid-column(4);
+  }
+
+  @include grid-media($XL) {
+    @include grid-column(4);
+  }
+
+  .usajobs-content-gutter {
+    @include grid-media($L) {
+      padding-left: 0;
+    }
+  }
+}
+
+// Buttons
+.usa-button-unstyled {
+  @include button-unstyled;
+}
+
+// ****************************************************************************
+// ATP Support
+.usajobs-recruitment {
+  &__page-title {
+    margin-top: $size-M;
+  }
+
+  &__lead {
+    @include h3();
+    font-weight: 300;
+    font-size: 2.2rem;
+    line-height: 1.5;
+    color: $color-gray;
+  }
+
+  &__section-header {
+    margin-top: $size-XXL;
+    margin-bottom: $size-S;
+    padding: 0.5em 0;
+    color: $color-primary-darkest;
+    border-bottom: 1px solid $color-primary-darkest;
+  }
+
+  &__external-button {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: $input-max-width;
+    padding: $size-default $size-L $size-default $size-S;
+    line-height: $heading-line-height;
+    text-align: left;
+
+    .fa {
+      position: absolute;
+      right: rem(10px);
+    }
+  }
+
+  &__external-link .fa {
+    padding-left: $size-base;
+  }
+}
