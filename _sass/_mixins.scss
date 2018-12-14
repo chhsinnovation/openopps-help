@@ -1,0 +1,264 @@
+
+// Animation
+$duration-fast:   0.3s;
+$duration-slow:   0.8s;
+
+// Mixins
+@mixin respond-to($breakpoint) {
+  @media only screen and (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin font-smoothing {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+@mixin font-feature-settings {
+  -moz-font-feature-settings: "liga=1, dlig=1";
+  -ms-font-feature-settings: "liga", "dlig";
+  -webkit-font-feature-settings: "liga", "dlig";
+  -o-font-feature-settings: "liga", "dlig";
+  font-feature-settings: "liga", "dlig";
+}
+
+@mixin header {
+  font-family: $font-sans;
+  font-weight: $font-bold;
+  line-height: $heading-line-height;
+  margin-bottom: $size-base;
+  margin-top: $size-default;
+}
+
+@mixin h1 {
+  @include header();
+  font-size: $h1-font-size;
+  font-size: rem($h1-font-size);
+  color: $color-primary-darkest;
+}
+
+@mixin h2 {
+  @include header();
+  font-size: $h2-font-size;
+  font-size: rem($h2-font-size);
+  color: $color-primary-darkest;
+}
+
+@mixin h3 {
+  @include header();
+  font-family: $font-sans;
+  font-size: $h3-font-size;
+  font-size: rem($h3-font-size);
+}
+
+@mixin h4 {
+  @include header();
+  font-family: $font-sans;
+  font-size: $h4-font-size;
+  font-size: rem($h4-font-size);
+}
+
+@mixin h5 {
+  @include header();
+  font-size: $h5-font-size;
+  font-size: rem($h5-font-size);
+}
+
+@mixin h6 {
+  @include header();
+  font-size: $h6-font-size;
+  font-size: rem($h6-font-size);
+  font-weight: $font-normal;
+  text-transform: uppercase;
+}
+
+@mixin default-text {
+  font-size: $base-font-size-px;
+  font-size: $base-font-size;
+  font-weight: $font-normal;
+  line-height: 1.5;
+  margin: $size-S 0;
+}
+
+@mixin unstyledList() {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  > li {
+    display: list-item;
+    margin: 0;
+
+    &:before {
+      display: none;
+    }
+
+    &:after {
+      display: none;
+    }
+  }
+}
+
+@mixin makeCircle($size, $border: none, $bg-color: inherit, $color: $color-white) {
+  display: inline-block;
+  width: $size;
+  height: $size;
+  line-height: $size;
+  border-radius: 50%;
+  color: $color;
+  background-color: $bg-color;
+  box-shadow: 0 0 0 2px $border inset;
+}
+
+@mixin bulletList() {
+  list-style: none;
+  padding-left: 0;
+  display: table;
+
+  > li {
+    display: table-row;
+
+    &:before {
+      content: "•";
+      display: table-cell;
+      padding-right: 0.4em;
+    }
+
+    &:after {
+      content: "";
+      display: block;
+      margin-bottom: 0.5em;
+    }
+  }
+}
+
+@mixin orderedList() {
+  > li {
+    line-height: 1.5;
+    margin-bottom: 0.5em;
+  }
+}
+
+@mixin usa-sidenav-list {
+  @include unstyledList();
+
+  > li {
+    background-color: transparent;
+    border-top: 1px solid $color-gray;
+    font-size: $h4-font-size;
+
+    &:first-child {
+      border-top: none;
+    }
+  }
+
+  a {
+    border: none;
+    color: $color-base;
+    display: block;
+    font-family: $font-sans;
+    line-height: 1.3;
+    padding: 0.85rem 1rem 0.85rem 1.8rem;
+    text-decoration: none;
+
+    &:hover {
+      background-color: $color-gray-lightest;
+      color: $color-primary;
+      text-decoration: none;
+    }
+
+    &:focus {
+      position: relative;
+      z-index: 1;
+    }
+
+    &.usa-current { /* stylelint-disable-line selector-no-qualifying-type */
+      border-left: 0.4rem solid $color-teal;
+      color: $color-base;
+      font-weight: $font-bold;
+      padding-left: 1.4rem;
+    }
+  }
+}
+
+@mixin usa-sidenav-sublist {
+  @include unstyledList();
+  margin: 0;
+  width: 100%;
+
+  li {
+    border: none;
+    font-size: $h5-font-size;
+  }
+
+  a {
+    padding-left: 2.8rem;
+    line-height: $heading-line-height;
+
+    &:hover,
+    &.usa-current { /* stylelint-disable-line selector-no-qualifying-type */
+      border: none;
+      padding-left: 2.8rem;
+    }
+  }
+
+  .usa-sidenav-sub_list {
+    a {
+      padding-left: 3.8rem;
+
+      &:hover {
+        padding-left: 3.8rem;
+      }
+    }
+  }
+}
+
+@mixin button-unstyled {
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  font-weight: $font-normal;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  text-align: left;
+  -webkit-font-smoothing: auto;
+
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+// Copied from Font awesome for now
+// Only display content to screen readers. A la Bootstrap 4.
+//
+// See: http://a11yproject.com/posts/how-to-hide-content/
+@mixin sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+// Use in conjunction with .sr-only to only display content when it's focused.
+//
+// Useful for "Skip to main content" links; see http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G1
+//
+// Credit: HTML5 Boilerplate
+@mixin sr-only-focusable {
+  &:active,
+  &:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+  }
+}

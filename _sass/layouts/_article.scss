@@ -1,0 +1,85 @@
+
+.usajobs-openopps-help-center-article {
+  @include clearfix();
+
+  // Override of the US Standards on lists. It really does odd things inside of articles.
+  ul,
+  ol {
+    margin-bottom: $size-S;
+  }
+
+  blockquote {
+    padding: 0 $size-default;
+    color: $color-gray;
+    border-left: 4px solid $color-gray-light;
+  }
+
+  &__container {
+    max-width: $article-max-width;
+    margin-top: $size-M;
+  }
+
+  &__title {
+    color: $color-primary-darker;
+  }
+
+  h3 {
+    color: $color-primary-darkest;
+  }
+
+  // Fix for lack of design system lists in prod
+  .usajobs-content-well {
+    @include grid-media($L) {
+      min-height: 50vh;
+    }
+
+    ul {
+      @include bulletList();
+    }
+
+    ol {
+      @include orderedList();
+    }
+
+    ul,
+    ol {
+      margin-left: .9em;
+      margin-bottom: $size-S;
+      padding-left: 0;
+
+      ul,
+      ol {
+        margin-left: $size-base;
+      }
+    }
+
+    a {
+      text-decoration: underline;
+    }
+  }
+
+  &__callout {
+    max-width: 17.7rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include grid-media($M) {
+      float: right;
+      padding: $size-M;
+    }
+  }
+
+  &__callout-link {
+    display: block;
+    padding: $size-base;
+    color: $color-primary;
+
+    svg {
+      fill: $color-primary;
+      height: 20px;
+      width: 20px;
+      padding-top: $size-base;
+      padding-right: $size-base;
+    }
+  }
+}
