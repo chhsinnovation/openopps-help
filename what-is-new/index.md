@@ -6,6 +6,25 @@ category: what-is-new
 title: What's new with Open Opportunities
 ---
 
+## Changes made January 11, 2019
+We made the following changes:
+
+### Enhancements
+
+* Added the ability to create and manage communities—a community is a group of users who share a common goal or interest.
+  * Opportunity creators can post opportunities to a specific community.  
+  * Added a community administrator role--community administrators will get an email when there are opportunities ready for them to review and approve.
+  * Community administrators can add members to a community—members will get an email when they’re added to a community.
+* Added a step to the Create an opportunity process to select a target audience—you can post an opportunity to a specific audience (community, agency, all Federal Employees, etc.) 
+* Imported data from USAJOBS to standardize our information.
+* Made some back-end changes to support future search improvements.
+
+### Bug fixes
+We fixed:
+
+* Navigation disappearing on some pages.
+* An incorrect link in the "draft opportunity created" email.
+
 ## Changes made November 16, 2018
 We made the following changes:
 
@@ -26,7 +45,7 @@ We made the following changes:
 ## Changes made June 29, 2018
 We made the following changes:
 
-### 1. Enhancements
+### Enhancements
 * Updated the account registration process to only allow a federal email address.
 * Added total number of opportunities to the top of the search results page.
 * Updated the search results page to only display 10 opportunities per page.
@@ -38,7 +57,7 @@ We made the following changes:
 * Added a character limit of 35 for any new skills entered on an opportunity.
 * Added a help feature to the 'create an opportunity' process to explain the 'continuing accepting applicants' toggle.
 
-### 2. Bug fixes
+### Bug fixes
 We fixed:
 
 * Various mobile and desktop display issues.
@@ -52,7 +71,7 @@ We fixed:
 ## Changes made May 18, 2018
 We made the following changes:
 
-### 1. Enhancements
+### Enhancements
 
 * Updated the design and added new content on the landing page after you sign in.
 * Added several filters to help narrow your search—you can now search opportunities by status, skill, career field, series, time commitment, and location.
@@ -62,7 +81,7 @@ We made the following changes:
 * Updated how opportunities are displayed and listed on the search page to make them easier to understand.
 * Added a “preview” step to the opportunity creation and editing process. 
 
-### 2. Bug fixes
+### Bug fixes
 We fixed:
 * The password reset form to only submit a single request.
 * Various mobile display issues.
@@ -71,10 +90,10 @@ We fixed:
 ## Changes made March 9, 2018
 We made the following changes:
 
-### 1.	New design
+### New design
 We updated the site to use the USAJOBS design system. This includes updates to the color, typography, button style, layout and more.
 
-### 2.	Enhancements
+### Enhancements
 We added:
 
 * The ability to assign participants to an opportunity, while keeping the opportunity open.
@@ -86,13 +105,13 @@ We added:
 * A way to clearly identify which applicants have been assigned to an opportunity.
 * An easy way to mark the entire opportunity as complete.
 
-### 3.	Bug fixes
+###	Bug fixes
 We fixed:
 
 * The image displays in IE and Edge.
 * The email field for signing in—it’s no longer case sensitive.
 
-### 4.	Security updates
+### Security updates
 
 *	We're now using a non-persistent cookie.
 *	Added an inactive session termination
