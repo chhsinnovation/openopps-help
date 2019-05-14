@@ -52,11 +52,12 @@
     "opener": "^1.5.1",
     "sass-lint": "^1.12.1",
     "scsslint": "0.0.3",
+    "tar": ">=4.4.2",
     "time-grunt": "^2.0.0"
   },
   "dependencies": {
     "npm": "^6.5.0",
-    "usajobs-design-system": "^1.9.18"
+    "usajobs-design-system": "^1.11.0"
   },
   "scripts": {
     "all": "npm run build && npm run deploy",
