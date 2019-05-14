@@ -1,6 +1,6 @@
 ---
 permalink: account/
-layout: default
+layout: article
 section: account
 category: account
 sidenav: account
@@ -43,8 +43,3 @@ Your profile highlights your skills, experience and areas of interest, such as c
 
 ## Why should I complete my profile?
 Having a complete profile is important because this is what opportunity creators will look at first, if you apply to their opportunity. A complete profile will also help you connect with others who share similar interests and skills.
-
-
-
-
-

@@ -1,16 +1,17 @@
 ---
-permalink: account/login-gov
+permalink: account/login-gov/
 layout: article
 section: account
 category: account
 sidenav: account-login-gov
 title: What is login.gov and why do I have to create an account?
 ---
+
 ## What is login.gov?
 login.gov is a service that offers secure and private online access to government programs, such as federal benefits, services and applications. With a login.gov account, you can sign into multiple government websites with the same email address and password.
 
 ## Why is Open Opportunities using login.gov?
-login.gov uses two-factor authentication, and stronger passwords, that meet new National Institute of Standards of Technology requirements for secure validation and verification. By using login.gov, you’ll get an extra layer of security to help protect your USAJOBS and Open Opportunities profile against password compromises. 
+login.gov uses two-factor authentication, and stronger passwords, that meet new National Institute of Standards of Technology requirements for secure validation and verification. By using login.gov, you’ll get an extra layer of security to help protect your USAJOBS and Open Opportunities profile against password compromises.
 You need a login.gov account to sign into Open Opportunities. Once you create a login.gov account, you can use the same email address and password for both Open Opportunities and USAJOBS.
 
 ## What do I need to do?
