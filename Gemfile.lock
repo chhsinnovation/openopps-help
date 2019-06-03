@@ -254,7 +254,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (~> 193)
+  github-pages (>= 193)
   html-proofer
   jekyll-sitemap
   rouge
