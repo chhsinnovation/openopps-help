@@ -4,64 +4,95 @@ layout: article
 section: getting-started
 category: getting-started
 sidenav: top-10-tips
-title: Top 10 tips for creating an ideal opportunity
+title: How to write a great Open Opportunities announcement
 ---
+Well-written opportunities will attract better qualified and more informed applicants. The following tips will help you write clear, descriptive and successful opportunity announcements.
 
-## 1. Divide and conquer
-Keep projects simple—if you have a big project, consider dividing it into smaller tasks. You can also offer several tasks at the same time, rather than sequentially.
-
-**For example**
-
-To create the Federal Crowdsource Mobile Testing Program, the Mobile team posted an opportunity requesting 20% time to help plan and create the program. Once the program was up and running, the team created two additional opportunities: one to manage the program and a second to run individual test cycles. Multiple test cycles can be advertised on Open Opps at the same time.
-
-## 2. Be specific
-Define exactly what needs to be done and what deliverables you expect. Include links or documents that the participant will need.
+## Keep opportunities small and simple
+If you have a big project, consider dividing it into smaller tasks and make each task a separate opportunity. You can post several opportunities at the same time, rather than sequentially, to make sure your entire project gets done.
 
 **For example**
 
-The DigitalGov team [needed a writer](https://openopps.usajobs.gov/tasks/25){:target="_blank"} who could contribute to a weekly blog series. The task included a link to the blog series so that potential participants could get familiar with existing articles.
+To create the “Federal Crowdsource Mobile Testing Program”, the Mobile team posted an opportunity asking for 20% time to help plan and create the program. Once the program was up and running, the team created two additional opportunities: one to manage the program and a second to run individual test cycles. The team posted multiple test cycles as opportunities at the same time.
 
-[See some other examples](../../opportunity/sample-opportunities).
 
-## 3. Give the big picture
-Include information on how a participants’ work will be used. This helps participants understand their work is part of a greater effort.
+## Drop the jargon
+* Write your opportunities in plain language—use simple words and phrases. 
+* Use full office names instead of acronyms, and avoid using office-specific slang. 
+* Include links to relevant resources that will help participants understand what they will be doing.
 
-**For example**
 
-The National Institute of Standards and Technology (NIST) [needed facts sheets updated](https://openopps.usajobs.gov/tasks/24){:target="_blank"}. For their opportunity, they explained that the fact sheets would be posted on their website and would “help the world understand the importance of the National Network for Manufacturing Innovation at NIST.”
+## Speak to the participant
+* Use pronouns to personalize the content and experience (i.e. use “you”, “your”).
+* Take the participant’s perspective—what do they need to know about this opportunity?
+* Only include content that the participant needs.
+* Define exactly what needs to be done and what deliverables you expect. Include links or examples of documents that the participant will need to work on or will better explain the tasks.
+* Read the opportunity as if you’re new to the government – does it make sense?
 
-## 4. Know your own availability
-Remember that you are an active part of Open Opps: the more clarity you provide, the less “back and forth” you will need to do in the future with participants. If you are posting an opportunity with a 20% time commitment, make sure that you're able to invest time supporting participants for the duration of your project.
 
-## 5. A title is more than words
-Write a catchy title, BUT also make sure it’s clear and descriptive!
+## Organize the content logically
+* Place the most important information at the top of each section in the opportunity announcement.
+* Use bulleted lists to break out separate duties and qualifications. 
 
-**For example**
 
-“Help Us Tell the Story of an NIH Rockstar” catches more attention than “Interview an Employee of NIH".
+## Double check your work
+Once you’re written your opportunity, ask yourself these key questions:
+* Does the content make sense when you read it out loud?
+* Did you put the right content in the right sections?
+* Is any of the content repetitive? 
 
-## 6. Focus on skills, not job titles
-Participants may skip over opportunities if they do not identify with a particular job title. A skill list will self-populate as you create your task. Use that skill list to guide your task description.
 
-**For example**
+# Creating the Opportunity
+We’ve created a template to help you create an opportunity announcement.  Follow these tips as you fill out the template:
 
-“I need someone with strong data analysis skills in Excel” rather than “I need someone with experience as a Research Assistant".
+## Title
+### Write a catchy and descriptive title
+The title is the first thing an opportunity seeker will see in their search results. 
 
-## 7. Drop jargon
-Write your tasks in plain language. Use full office names instead of acronyms. Avoid using office-specific slang. Define complicated terms or include links to relevant resources that will help participants understand the task.
+* Make sure it’s easy to understand and descriptive of what the opportunity is. 
+* Use keywords that will catch the seeker’s interest and make it easier to search for.
+* Focus on skills—not just a job title.
 
-## 8. Set realistic timelines
-Participants may not be familiar with your office or agency. Does your task require background knowledge that may take a variable amount of time for the participant to research, depending on learning styles?
+If you’re posting a detail opportunity, make sure to include the word “Detail” in the title.
 
-## 9. Every Open Opp is a learning opportunity
-Many tasks do not require participants to be experts in a given field. If you are looking for somebody who is willing to learn a new skill, clearly state that.
+**Example**
 
-**For example**
+“Looking for someone with strong data analysis skills in Excel” is better than “Looking for a Research Assistant”.
 
-The DigitalGov usability team requested help with [writing usability case studies](https://openopps.usajobs.gov/tasks/18){:target="_blank"}. They clearly stated that using WordPress was part of the task, but they would accept a participant who was willing to learn WordPress basics.
 
-## 10. Market your Open Opportunity
-Are there communities of practice (CoP) that might be interested in your task? Use our [marketing email template](../../opportunity/marketing-email-template.docx){:target="_blank"} (1 page, 14 kb, MS Word .docx) to craft a message.
+## Introduction
+### Include the most important information first
+* Use the introduction to summarize the opportunity, including who the opportunity is with.  
+* Make sure the first three sentences include the most important information about your opportunity, because this will appear under the title in the search results.
+* Be descriptive enough to get the participant’s attention without being long-winded—think of this as your sales pitch.
+
+## What you’ll do
+### Be specific about the work
+* Describe exactly what needs to be done and what deliverables you expect. 
+* Be concise, but offer enough details so the participant knows what's involved.
+* Include information on how their work will be used—this helps participants understand their work is part of a greater effort.
+
+## What you’ll learn
+### Tell the participants what’s in it for them
+The goal of Open Opportunities is to help participants learn and network.
+
+* List the types of skills they will gain.
+* Describe who they will connect with and other networking benefits.
+* Include any other benefits.
+
+**Example**
+
+The DigitalGov usability team asked for help with [writing usability case studies](https://openopps.usajobs.gov/tasks/18){:target="_blank"}. They clearly stated that using WordPress was part of the task, but they would accept a participant who was willing to learn WordPress basics.
+
+## Who we are
+### Describe your team, department, or agency.  
+* Briefly describe what makes your organization unique.
+* Include who the participant will work with on a regular basis. 
+
+
+
+## Market your opportunity
+Spread the word about Open Opportunities and your need. Are there communities of practice (CoP) that might be interested in your opportunity?  Use our [marketing email template](../../opportunity/marketing-email-template.docx){:target="_blank"} (1 page, 14 kb, MS Word .docx) to craft a message.
 
 Want to target an individual (or six?) Use the **Share** link in your opportunity to send a form email.
 
