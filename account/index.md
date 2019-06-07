@@ -4,7 +4,7 @@ layout: article
 section: account
 category: account
 sidenav: account
-title: How to create an account
+title: How to create a profile
 ---
 
 
@@ -30,6 +30,8 @@ You need a login.gov account to sign into Open Opportunities. You only need to c
 4. Have a working phone number (mobile or landline) or an authentication application installed on a device—login.gov will send you a one-time security code.
 
 [Create your login.gov account](https://login.usajobs.gov/Access/Transition).
+
+[What is login.gov](login-gov)?
 
 ## 2. Create or link your USAJOBS profile
 Once you create a login.gov account, you’ll go to USAJOBS to link to your existing profile, or create a new one.
