@@ -66,3 +66,5 @@ When you first create your login.gov account, you need to use the same email add
 
 ## Can I share a login.gov account with another person?
 No. Each person needs their own login.gov account. Each person must set up their own login.gov account, with their own personal email address (not an email that you share with someone else).
+
+[Learn more about login.gov](https://login.gov/help/).
