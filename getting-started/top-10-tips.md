@@ -4,7 +4,7 @@ layout: article
 section: getting-started
 category: getting-started
 sidenav: top-10-tips
-title: How to write a great Open Opportunities announcement
+title: How to write a great opportunity announcement
 ---
 Well-written opportunities will attract better qualified and more informed applicants. The following tips will help you write clear, descriptive and successful opportunity announcements.
 
