@@ -6,12 +6,13 @@ category: what-is-new
 title: What's new with Open Opportunities
 ---
 
-## Changes made June 14, 2019
+## Changes made June 19, 2019
+
 We made the following changes:
 
 ### Enhancements
 
-* Launched two-factor authentication using login.gov – now you can securely sign into USAJOBS and Open Opportunities using one login.gov account 
+* Launched two-factor authentication using login.gov – now you can securely sign into USAJOBS and Open Opportunities using one login.gov account
 * Updated our sign in process to navigate users to the right place if they’re missing information in their profile, such as hiring path, federal email address or agency information
 * Created one profile for both USAJOBS and Open Opportunities—Open Opportunities users can now link their USAJOBS and Open Opportunities profile so they have only one profile to keep up to date.
 * Released new functionality for the U.S. Department of State Student Internship Program (Unpaid)
@@ -35,7 +36,7 @@ We made the following changes:
   * Opportunity creators can post opportunities to a specific community.  
   * Added a community administrator role--community administrators will get an email when there are opportunities ready for them to review and approve.
   * Community administrators can add members to a community—members will get an email when they’re added to a community.
-* Added a step to the Create an opportunity process to select a target audience—you can post an opportunity to a specific audience (community, agency, all Federal Employees, etc.) 
+* Added a step to the Create an opportunity process to select a target audience—you can post an opportunity to a specific audience (community, agency, all Federal Employees, etc.)
 * Imported data from USAJOBS to standardize our information.
 * Made some back-end changes to support future search improvements.
 
@@ -51,7 +52,7 @@ We made the following changes:
 ### Enhancements
 
 * Enhanced the administration dashboard.
-* Updated the profile page so you can easily upload, update or remove your profile picture. 
+* Updated the profile page so you can easily upload, update or remove your profile picture.
 * Added a section to the profile page to display your skills and added a way to edit your skill list.
 * Created a new user home page that highlights:
   * Current and past opportunities you’ve participated in.
@@ -99,7 +100,7 @@ We made the following changes:
 * Launched the Acquisition Career portal which focuses on opportunities for the Acquisition career field.
 * Updated our system notification emails to increase clarity.
 * Updated how opportunities are displayed and listed on the search page to make them easier to understand.
-* Added a “preview” step to the opportunity creation and editing process. 
+* Added a “preview” step to the opportunity creation and editing process.
 
 ### Bug fixes
 We fixed:
