@@ -1,8 +1,8 @@
 ---
-permalink: account/login-gov/
+permalink: profile/login-gov/
 layout: article
-section: account
-category: account
+section: profile
+category: profile
 sidenav: account-login-gov
 title: What is login.gov and why do I have to create an account?
 ---

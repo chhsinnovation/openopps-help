@@ -1,12 +1,11 @@
 ---
-permalink: account/
+permalink: profile/
 layout: article
-section: account
-category: account
-sidenav: account
+section: profile
+category: profile
+sidenav: profile
 title: How to create a profile
 ---
-
 
 To participate in Open Opportunities, you must have a profile.
 
@@ -51,9 +50,8 @@ Once you’ve created your login.gov account and USAJOBS profile, we’ll link t
 Your profile highlights your skills, experience and areas of interest, such as career areas, agencies you’re interested in and other topics.  We encourage you to review your information and fill in anything that’s missing.
 
 ## Why should I complete my profile?
-Having a complete profile is important because this is what opportunity creators will look at first, if you apply to their opportunity. Also, now that Open Opportunities and USAJOBS share one profile, having a complete one will help you: 
+Having a complete profile is important because this is what opportunity creators will look at first, if you apply to their opportunity. Also, now that Open Opportunities and USAJOBS share one profile, having a complete one will help you:
 * Connect with others who share similar interests and skills.
 * House and manage your contact information, experience, education and documents, all in one place.
 * Get access to future features such as recommended jobs and learning opportunities.
 * Have one place to aggregate your learning experiences.
-

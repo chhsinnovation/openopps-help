@@ -10,7 +10,7 @@ title: How to create an opportunity
 ### Before you get started
 1.	Ask your supervisor if it’s okay to post an opportunity—you need their approval.
 2.	Read our [tips for writing a great opportunity announcement](../getting-started/top-10-tips/) and [check out a few examples](sample-opportunities).
-3.  [Create a profile](../account/) if you don’t already have one—you must have a profile to create and post an opportunity.
+3.  [Create a profile](../profile/) if you don’t already have one—you must have a profile to create and post an opportunity.
 
 ### Create your opportunity
 1.	Sign into Open Opportunities and click **Create opportunity**.
@@ -39,7 +39,7 @@ title: How to create an opportunity
 2.	Review  applicants
 * You’ll get an email every time someone applies to your opportunity.
 * Click on an applicant’s name to review their profile.
-* Call or email the applicant to learn more about their skill set, interests or to get a better idea if they’re the right person for the work. 
+* Call or email the applicant to learn more about their skill set, interests or to get a better idea if they’re the right person for the work.
 
 3.	Assign participants
 * Are they a fit?  Click **+** to assign participant(s)—once done, click **Next Step**.
