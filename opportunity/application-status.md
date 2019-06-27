@@ -3,7 +3,7 @@ permalink: opportunity/application-status/
 layout: article
 section: opportunity
 category: opportunity
-sidenav: opportunity-application-status
+sidenav: application-status
 title: What does the application status mean?
 ---
 The application status tells you where your application is within the application process. The statuses are different based on whether you’ve applied to a federal employee opportunity or you’re student and have applied to an [internship opportunity](#application-status-for-student-internship-opportunities).
