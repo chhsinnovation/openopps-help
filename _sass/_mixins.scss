@@ -121,7 +121,7 @@ $duration-slow:   0.8s;
     display: table-row;
 
     &:before {
-      content: "•";
+      content: "\2022";
       display: table-cell;
       padding-right: 0.4em;
     }
