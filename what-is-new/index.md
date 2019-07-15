@@ -10,7 +10,6 @@ title: What's new with Open Opportunities
 
 ### Enhancements
 
-* Made major enhancements to the People search, including:
 Made major enhancements to the People search including:
   * Improved People search performance and relevance.
   * Added the ability to search for people by skills (using the skills saved in their profile).
