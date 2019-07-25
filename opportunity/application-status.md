@@ -36,11 +36,8 @@ You were not selected for the internship opportunity.
 ### Selected
 You’ve been selected as either a primary or alternate candidate for the internship opportunity.
 
-### Assigned
-You’ve been assigned to the internship opportunity.
-
-### Not assigned
-You were not assigned to the internship. This may be because you were selected as an alternate and were no longer needed for the internship.
+### Alternate
+You are an alternate for the internship. You may be selected for the internship if the primary candidate falls through.
 
 ### Completed
 You’ve completed your tasks for the internship.
