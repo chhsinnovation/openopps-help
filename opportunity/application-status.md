@@ -11,7 +11,7 @@ The application status tells you where your application is within the applicatio
 ## Application status for federal employee opportunities
 
 ### Applied
-You have applied to the opportunity.
+You've applied to the opportunity.
 
 ### Assigned
 You’ve been selected for the opportunity and appear as an assigned participant. 
@@ -27,7 +27,7 @@ You’ve completed your tasks for the opportunity.
 ### In progress
 You’ve started your internship application, but haven’t submitted it yet. You need to complete and submit the application to be considered for the internship.
 
-### Submitted
+### Applied
 You’ve submitted your internship application.
 
 ### Not selected
