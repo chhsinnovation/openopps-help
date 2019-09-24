@@ -30,11 +30,14 @@ You’ve started your internship application, but haven’t submitted it yet. Yo
 ### Applied
 You’ve submitted your internship application.
 
-### Not selected
-You were not selected for the internship opportunity.
+### Not submitted
+You didn’t complete and submit the application before the deadline.
 
 ### Selected
 You’ve been selected as either a primary or alternate candidate for the internship opportunity.
+
+### Not selected
+You were not selected for the internship opportunity.
 
 ### Alternate
 You are an alternate for the internship. You may be selected for the internship if the primary candidate falls through.
