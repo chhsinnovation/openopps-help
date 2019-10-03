@@ -6,6 +6,23 @@ category: what-is-new
 title: What's new with Open Opportunities
 ---
 
+## Changes made October 7, 2019
+
+### Enhancements
+
+* Updated the sitewide, agency and community administrator dashboards to include the following metrics data (for a select period of time):
+  * Key contributors
+  * Number of opportunities created
+  * Number of opportunities closed
+  * Number of applicants
+* Added new functionality so contractors can sign into Open Opportunities and create opportunities on behalf of their federal leads.
+* Updated the visual display of the administrator dashboards to use icons for federal employees, students, or contractors.
+
+### Bug Fixes
+
+* Resolved issues with administrator dashboard filters not working correctly.
+* Fixed an issue where Save for later was submitting opportunities.
+
 ## Changes made July 15, 2019
 
 ### Enhancements
