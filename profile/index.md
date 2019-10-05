@@ -38,11 +38,21 @@ Once you create a login.gov account, you’ll go to USAJOBS to link to your exis
 You need a USAJOBS profile because Open Opportunities is now a part of USAJOBS and you’ll share one profile across the two sites. If you don’t have a USAJOBS profile, we’ll help you create one.
 
 You also need to be a current federal employee or student to access Open Opportunities.  In your USAJOBS profile, make sure you:
-1.	Select **Federal Employee** or **Student** as a hiring path.
-2.	Update the **Federal Service Experience** section of your profile, if you’re a federal employee:
-  * Select your **Department & agency**.
-  * Add and confirm your **Federal Government email address**—look for the confirmation email in your inbox.
+1.	Select **Federal Employee** or **Student** as a hiring path. If you’re a federal contractor, select the hiring path that fits you.
+2.	Update the **Federal Service Experience** section of your profile, if you’re a federal employee or contractor.
 
+If you’re a federal employee:
+
+  * Select your **Department & agency**.
+  * Add your **Federal Government email address**.
+  * Confirm your federal email address—look for the confirmation email in your inbox.
+
+If you’re a federal contractor:
+
+  * Select **I am a current contractor working for the Federal Government** in the **Federal Service Experience** section.
+  * Select the **Department & agency** you’re currently working for.
+  * Add your federal email address.
+  * Confirm your federal email address—look for the confirmation email in your inbox.
 
 ## 3. Complete or link your Open Opportunities profile
 Once you’ve created your login.gov account and USAJOBS profile, we’ll link them to your existing Open Opportunities profile. If you don’t have an Open Opportunities profile, we’ll help you complete the final steps of adding skills and a photo.
