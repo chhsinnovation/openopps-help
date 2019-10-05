@@ -7,6 +7,8 @@ sidenav: opportunity
 title: How to create an opportunity
 ---
 
+Current federal employees, and some federal contractors, can create and post opportunities. You can post opportunities to get help on projects, propose working groups, get testers for new ideas or products or create a team to work on an idea you have.
+
 ### Before you get started
 1.	Ask your supervisor if it’s okay to post an opportunity—you need their approval.
 2.	Read our [tips for writing a great opportunity announcement](../getting-started/top-10-tips/) and [check out a few examples](sample-opportunities).
