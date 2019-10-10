@@ -7,7 +7,7 @@ sidenav: profile
 title: How to create a profile
 ---
 
-To participate in Open Opportunities, you must have a profile.
+To participate in Open Opportunities, you must have a profile and be a current federal employee or student.  Some federal contractors can also access Open Opportunities to post opportunities, but they can't participate in an opportunity.
 
 With a profile, you can:
 
@@ -37,7 +37,8 @@ Once you create a login.gov account, you’ll go to USAJOBS to link to your exis
 
 You need a USAJOBS profile because Open Opportunities is now a part of USAJOBS and you’ll share one profile across the two sites. If you don’t have a USAJOBS profile, we’ll help you create one.
 
-You also need to be a current federal employee or student to access Open Opportunities.  In your USAJOBS profile, make sure you:
+In your USAJOBS profile, make sure you:
+
 1.	Select **Federal Employee** or **Student** as a hiring path. If you’re a federal contractor, select the hiring path that fits you.
 2.	Update the **Federal Service Experience** section of your profile, if you’re a federal employee or contractor.
 
