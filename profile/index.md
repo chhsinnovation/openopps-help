@@ -7,7 +7,7 @@ sidenav: profile
 title: How to create a profile
 ---
 
-To participate in Open Opportunities, you must have a profile and be a current federal employee or student.  Some federal contractors can also access Open Opportunities to post opportunities, but they can't apply to and work on an opportunity.
+To participate in Open Opportunities, you must have a profile and be a current federal employee or student.  Some federal contractors can also access Open Opportunities to post opportunities, but they can't apply to or work on an opportunity.
 
 With a profile, you can:
 
