@@ -11,7 +11,7 @@ title: What's new with Open Opportunities
 ### Enhancements
 
 * Added new sorting and filtering options to the administrator dashboard to help administrators find user and opportunity or internship information.
-* Added a "Not completed" status for internship applications. The "Not completed" status is for an internship application that was in progress, but not submitted before the cycle closed.
+* Added a "Not completed" status for internship applications. A user will see the "Not completed" status if their application was in progress, but they did not submit it before the cycle closed.
 
 ## Changes made October 7, 2019
 
