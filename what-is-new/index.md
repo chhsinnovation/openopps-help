@@ -6,6 +6,16 @@ category: what-is-new
 title: What's new with Open Opportunities
 ---
 
+## Changes made November 4, 2019
+
+## Enhancements
+
+* Enhanced reporting and metrics.
+  * Created new report for Department of State administrators to view data based on the internship cycle.
+  * Updated reports with more relevant data and filtering options for administrators.
+* Added a new feature for adminstrators and help desk to view a user's profile, including the opportunities or internships a user has created or applied to.
+* Added a new 'delete' feature so a user can delete a draft opportunity from their dashboard landing page.
+
 ## Changes made October 21, 2019
 
 ### Enhancements
