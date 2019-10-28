@@ -34,13 +34,13 @@ You’ve submitted your internship application.
 You didn’t complete and submit the application before the deadline.
 
 ### Selected
-You’ve been selected as either a primary or alternate candidate for the internship opportunity.
+You’ve been selected as a primary candidate for the internship opportunity.
 
 ### Not selected
 You were not selected for the internship opportunity.
 
 ### Alternate
-You are an alternate for the internship. You may be selected for the internship if the primary candidate falls through.
+You’ve been selected as an alternate candidate for the internship opportunity. You may be selected if the primary candidate falls through.
 
 ### Completed
 You’ve completed your tasks for the internship.
