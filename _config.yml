@@ -14,12 +14,14 @@ exclude:
 - ".ruby-version"
 - npm-debug.log
 - node_modules
+- buildspec.yml
+- package-lock.json
 keep_files: ['css', 'js']
 
 # Setting a unique port number
 port: 4001
 
-baseurl: '/openopps-help'
+baseurl: '/'
 destination: ./_dist
 
 permalink: pretty
@@ -34,7 +36,7 @@ repository:
 
 produrl: 'https://openopps.usajobs.gov'
 
-google_analytics_ua: UA-33523145-1
+google_analytics_ua: UA-XXXXXXXXXXX
 
 plugins: ['jekyll-sitemap']
 
