@@ -1,0 +1,15 @@
+version: 0.2
+phases:
+  install:
+    commands:
+      - apt-get install -y ruby-full build-essential zlib1g-dev
+      - gem install bundler
+      - bundle install
+  build:
+    commands:
+      - bundle exec jekyll build
+artifacts:
+  # Tells AWS CodeBuild how to drop the files into S3.
+  base-directory: '_dist'
+  files:
+    - '**/*'
