@@ -2,10 +2,10 @@
 permalink: privacy/
 layout: default
 title: Privacy Policy
-lead: Thank you for visiting the USAJOBS Open Opportunities web site and reviewing our privacy policy.
+lead: Thank you for visiting the Open Opportunities web site and reviewing our privacy policy.
 ---
 
-  We need the information you submit through USAJOBS to see how well your education and work skills qualify you for a Federal job. We also need information on matters such as citizenship and military service to see whether you are affected by laws we must follow in deciding who may be employed by the Federal Government. The Office of Personnel Management is authorized to rate applicants for Federal jobs under sections 1302, 3301, and 3304 of title 5 of the U.S. Code. Section 1104 of title 5 allows the Office of Personnel Management to authorize other Federal Agencies to rate applicants for Federal jobs.
+  We need the information you submit through OpenOpps to see how well your education and work skills qualify you for a Federal job. We also need information on matters such as citizenship and military service to see whether you are affected by laws we must follow in deciding who may be employed by the Federal Government. The Office of Personnel Management is authorized to rate applicants for Federal jobs under sections 1302, 3301, and 3304 of title 5 of the U.S. Code. Section 1104 of title 5 allows the Office of Personnel Management to authorize other Federal Agencies to rate applicants for Federal jobs.
 
   Other possible routine uses of the information that is collected includes releasing information to the following:
 
