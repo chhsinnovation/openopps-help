@@ -21,7 +21,7 @@ When you create an opportunity and post it, the toggle button will automatically
 If you no longer want to accept applications, you need to turn the toggle button “off”.
 
 To turn the toggle button off:
-1.	Sign into your profile.
+1.	Sign into your profile. And proceed to the next step.
 2.	Go to your list of created opportunities.
 3.	Click on the opportunity you no longer want to receive applications for.
 4.	Click the toggle button off—the toggle button is in the upper right corner of the page.
