@@ -1,5 +1,5 @@
 ---
-permalink: profile/login-gov/
+permalink: https://usajobs.github.io/openopps-help/profile/login-gov/
 layout: article
 section: profile
 category: profile
