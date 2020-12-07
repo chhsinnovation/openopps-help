@@ -1,5 +1,5 @@
 ---
-permalink: what-is-new/
+permalink: https://usajobs.github.io/openopps-help/release-notes/
 layout: default
 section: what-is-new
 category: what-is-new
