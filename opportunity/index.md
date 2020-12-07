@@ -1,5 +1,5 @@
 ---
-permalink: opportunity/
+permalink: https://usajobs.github.io/openopps-help/opportunity-creators/
 layout: article
 section: opportunity
 category: opportunity
