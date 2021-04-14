@@ -45,7 +45,7 @@ In your USAJOBS profile, make sure you:
 If you’re a federal employee:
 
   * Select your **Department & agency**.
-  * Add your **Federal Government email address**.
+  * Add your **State Government email address**.
   * Confirm your federal email address—look for the confirmation email in your inbox.
 
 If you’re a federal contractor:
